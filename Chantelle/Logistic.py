@@ -81,6 +81,8 @@ if __name__ == '__main__':
                 "Parent_Opportunity__c", "RecordType.Name.1", "Industry", "Business_Type__c", "Is_External__c",
                 "ParentId"]
 
+    # cross feature "RecordType.Name" and "RecordType.Name.1" (combine together)
+
     predictor = "Converted"
 
     X = data[feature3]
@@ -90,9 +92,9 @@ if __name__ == '__main__':
     lm = LogisticRegression()
 
     # print(data.info())
-    cv_result_lm = cross_val_score(lm, X, y, cv=10)
-    print(cv_result_lm)
-    print("mean score of lm:%.2f" % cv_result_lm.mean())
+    # cv_result_lm = cross_val_score(lm, X, y, cv=10)
+    # print(cv_result_lm)
+    # print("mean score of lm:%.2f" % cv_result_lm.mean())
     #
     # cv_result_knn = cross_val_score(knn,  X, y, cv=10)
     # print(cv_result_knn)
