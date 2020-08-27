@@ -89,8 +89,13 @@ if __name__ == '__main__':
     knn = neighbors.KNeighborsClassifier(n_neighbors=10)
     lm = LogisticRegression()
 
-    print(data.info())
-    # cv_result = cross_val_score(clf, X, y, cv=10)
-    # print("score:%.2f" % cv_result.mean())
+    # print(data.info())
+    cv_result_lm = cross_val_score(lm, X, y, cv=10)
+    print(cv_result_lm)
+    print("mean score of lm:%.2f" % cv_result_lm.mean())
+    #
+    # cv_result_knn = cross_val_score(knn,  X, y, cv=10)
+    # print(cv_result_knn)
+    # print("mean score of knn:%.2f" % cv_result_knn.mean())
 
     # print( "Coefficients:%s, intercept %s" % (lm.coef_, lm.intercept_) )
