@@ -1,3 +1,5 @@
+
+
 import pandas as pd
 from sklearn.linear_model import LogisticRegression, LogisticRegressionCV
 from sklearn.impute import SimpleImputer
@@ -8,19 +10,14 @@ from sklearn.model_selection import train_test_split, cross_val_score, cross_val
 from sklearn import preprocessing, linear_model, svm
 
 
-features = ['StageName', 'Status_Reason__c', 'RecordType.Name',
-            "Final_Record_Type__c", "RICE_Supported__c", "CloseDate", "Actual_Close_Date__c", "Amount",
-            "Estimated_Project_Total_Value__c", "Booked_Revenue__c", 'Actual_Project_Total_Value__c', 'BD_Cluster__c',
-            'BD_Division__c', 'AccountId', 'Customer_Contact__c', 'Lead_Academic_contact__c', 'Lead_Faculty__c',
-            'Lead_School__c', 'Lead_Department__c', 'OwnerId', 'account_type', 'Industry', 'Industry_Sub_Type__c',
-            'Business_Type__c', 'Country__c', 'Is_External__c']
 
-columns=['StageName', 'Status_Reason__c', 'RecordType.Name',
-            "Final_Record_Type__c", "RICE_Supported__c", "CloseDate", "Actual_Close_Date__c", "Amount",
-            "Estimated_Project_Total_Value__c", "Booked_Revenue__c", 'Actual_Project_Total_Value__c', 'BD_Cluster__c',
-            'BD_Division__c', 'AccountId', 'Customer_Contact__c', 'Lead_Academic_contact__c', 'Lead_Faculty__c',
-            'Lead_School__c', 'Lead_Department__c', 'OwnerId', 'account_type', 'Industry', 'Industry_Sub_Type__c',
-            'Business_Type__c', 'Country__c', 'Is_External__c', 'Converted']
+
+# columns=['StageName', 'Status_Reason__c', 'RecordType.Name',
+#             "Final_Record_Type__c", "RICE_Supported__c", "CloseDate", "Actual_Close_Date__c", "Amount",
+#             "Estimated_Project_Total_Value__c", "Booked_Revenue__c", 'Actual_Project_Total_Value__c', 'BD_Cluster__c',
+#             'BD_Division__c', 'AccountId', 'Customer_Contact__c', 'Lead_Academic_contact__c', 'Lead_Faculty__c',
+#             'Lead_School__c', 'Lead_Department__c', 'OwnerId', 'account_type', 'Industry', 'Industry_Sub_Type__c',
+#             'Business_Type__c', 'Country__c', 'Is_External__c', 'Converted']
 
 
 def import_data(file):
@@ -72,26 +69,23 @@ def test_Logistic_regression(data_imputed, feature, predictor, test_size):
 
 if __name__ == '__main__':
 
-    file1 = "imputed_data.csv"
-    file2 = "clean_data.csv"
-    file3 = "cleaned_23:8_updated.csv"
-    data = import_data( file3 )
+    file = "cleaned_2.csv"
+    data = import_data( file )
 
-    feature3 = ["RecordType.Name", "RICE_Supported__c", "CreatedDate", "CloseDate",
-                "Parent_Opportunity__c", "RecordType.Name.1", "Industry", "Business_Type__c", "Is_External__c",
-                "ParentId"]
+    features = ['Status_Reason__c', 'RecordType.Name',
+                "RICE_Supported__c", "CreatedDate", 'Lead_Faculty__c',
+                'Parent_Opportunity__c', 'RecordType.Name.1', 'Industry',
+                'Business_Type__c', 'Is_External__c', 'ParentId', 'RecordType']
 
-    # cross feature "RecordType.Name" and "RecordType.Name.1" (combine together)
+    predictor = "StageName"
 
-    predictor = "Converted"
-
-    X = data[feature3]
+    X = data[features]
     y = data[predictor]
 
     knn = neighbors.KNeighborsClassifier(n_neighbors=10)
     lm = LogisticRegression()
 
-    # print(data.info())
+    print(data.info())
     # cv_result_lm = cross_val_score(lm, X, y, cv=10)
     # print(cv_result_lm)
     # print("mean score of lm:%.2f" % cv_result_lm.mean())
