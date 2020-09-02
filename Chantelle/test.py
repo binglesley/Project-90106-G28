@@ -69,33 +69,33 @@ def test_Logistic_regression(data_imputed, feature, predictor, test_size):
 
 if __name__ == '__main__':
 
-    file = "cleaned_2.csv"
+    file = "cleaned_3.csv"
     data = import_data(file)
 
     features = ['Status_Reason__c', 'RecordType.Name',
                 "RICE_Supported__c", "CreatedDate", 'Lead_Faculty__c',
                 'Parent_Opportunity__c', 'RecordType.Name.1', 'Industry',
-                'Business_Type__c', 'Is_External__c', 'ParentId', 'RecordType']
+                'Business_Type__c', 'Is_External__c', 'ParentId', 'RecordType', 'CreatedDate_month']
 
     predictor = "StageName"
 
     X = data[features]
     y = data[predictor]
-
-    knn = neighbors.KNeighborsClassifier(n_neighbors=10)
-    lm = LogisticRegression()
-    mod1 = lm.fit(X, y)
-    # print(data.info())
-    cv_result_lm = cross_val_score(lm, X, y, cv=10)
+    #
+    # knn = neighbors.KNeighborsClassifier(n_neighbors=10)
+    # lm = LogisticRegression()
+    # mod1 = lm.fit(X, y)
+    print(data.info())
+    # cv_result_lm = cross_val_score(lm, X, y, cv=10)
     # print(cv_result_lm)
-
-    print("mean score of lm: %.2f" % cv_result_lm.mean())
-    print("coefficients: ")
-    print(lm.coef_)
-    print()
-
-    cv_result_knn = cross_val_score(knn,  X, y, cv=10)
-    print(cv_result_knn)
-    print("mean score of knn: %.2f" % cv_result_knn.mean())
+    #
+    # print("mean score of lm: %.2f" % cv_result_lm.mean())
+    # print("coefficients: ")
+    # print(lm.coef_)
+    # print()
+    #
+    # cv_result_knn = cross_val_score(knn,  X, y, cv=10)
+    # print(cv_result_knn)
+    # print("mean score of knn: %.2f" % cv_result_knn.mean())
 
     # print( "Coefficients:%s, intercept %s" % (lm.coef_, lm.intercept_) )
