@@ -3,30 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="222e7c56-acda-4411-880a-a6e95a00f854" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/.RData" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/.RData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chantelle/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/.Rhistory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/cleaned_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/cleaned_2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/modeling.Rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/modeling.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-1_654ababc447b168fc0ba22432e33ea2b.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-1_654ababc447b168fc0ba22432e33ea2b.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-1_654ababc447b168fc0ba22432e33ea2b.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-2_9fae244adc9f84818041e6a4d3ca303e.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-2_9fae244adc9f84818041e6a4d3ca303e.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-2_9fae244adc9f84818041e6a4d3ca303e.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-3_743374e863cb969d37bf944faa14d74a.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-3_743374e863cb969d37bf944faa14d74a.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-3_743374e863cb969d37bf944faa14d74a.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-4_def78cbf0dc3b41bb2e8eb6bc94b25d7.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-4_def78cbf0dc3b41bb2e8eb6bc94b25d7.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-4_def78cbf0dc3b41bb2e8eb6bc94b25d7.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-5_2898e6e4ee8ca1b00ee120c4ab670a6a.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-5_2898e6e4ee8ca1b00ee120c4ab670a6a.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-5_2898e6e4ee8ca1b00ee120c4ab670a6a.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-6_cceb62928bbc61e89d31afa008f6f2c1.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-6_cceb62928bbc61e89d31afa008f6f2c1.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/modeling_cache/latex/unnamed-chunk-6_cceb62928bbc61e89d31afa008f6f2c1.rdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chantelle/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chantelle/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.test">
     <configuration name="Logistic" type="PythonConfigurationType" factoryName="Python" temporary="true">

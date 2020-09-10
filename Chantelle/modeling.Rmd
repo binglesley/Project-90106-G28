@@ -15,27 +15,28 @@ library(caret)
 ```
 
 ### Attributes:
-1: Id	
-2: StageName (factor)	
-3: Status_Reason__c	
-\newline 4: RecordType.Name	
-\newline 5: RICE_Supported__c	
-6: CreatedDate
-\newline 7: AccountId	
-8: Lead_Faculty__c
-\newline 9: Parent_Opportunity__c (factor) 
-\newline 10: RecordType.Name.1 
-\newline 11: Industry 
-\newline 12: Business_Type__c 
-\newline 13: ParentId (factor) 
-\newline 14: RecordType 
-\newline 15: CreatedDate_month
-\newline 16: Is_External__c
+1: StageName (factor)	
+2: RecordType.Name
+3: RICE_Supported__c
+\newline 4: Actual_Close_Date__c (factor)
+\newline 5: Lead_Faculty__c
+6: Lead_School__c
+\newline 7: Parent_Opportunity__c (factor)
+\newline 8: Industry
+\newline 9: Industry_Sub_Type__c	
+\newline 10: Business_Type__c
+\newline 11: Is_External(1)__c (facotr)
+\newline 12: ParentId (factor) 
+\newline 13: CloseYear
+\newline 14: CloseMonth  
+\newline 15: CreatedYear
+\newline 16: CreatedMonth 
+
 
 
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 # Reading Data In
-data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_3.csv",
+data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_9_Sep.csv",
                  header = TRUE, stringsAsFactors = T)
 names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
                  "X11", "X12", "X13", "X14", "X15", "X16") 
@@ -43,40 +44,9 @@ names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
 #summary(data)
 ```
 
-Build regression model with 1 predictor ("StageName") and 14 features (X3-X16)
+Build regression model with 1 predictor ("StageName") and 15 features (X2-X6)
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
-mod1 <- glm(factor(X2)~X3+X4+X5+X6+X8+factor(X9)+X10+X11+X12+factor(X13)+X14+X15+X16, 
-            family = "binomial", data = data)
-```
-
-
-
-```{r,echo=T, eval=T,cache=T, message=F,warning=F}
-
-# 10-fold cross_validation
-train_control <- trainControl(method = "cv", number = 10)
-
-# train the model on data set
-model <- train(factor(X2)~X3+X4+X5+X6+X8+factor(X9)+X10+X11+X12+factor(X13)+X14+X15+X16,
-               data = data,
-               trControl = train_control,
-               method = "glm",
-               family="binomial")
-
-# print cv scores
-print(model)
-
-# summary(model)
-```
-## Conclusion:
-Accuracy 99%
-No attributes are significant (p-value < 0.05)
-
-### Next step:
-Remove feature X3: "Status_Reason__c"
-Build regression model with 1 predictor ("StageName") and 13 features (X4-X16)
-```{r,echo=T, eval=T,cache=T, message=F,warning=F}
-mod2 <- glm(factor(X2)~X4+X5+X6+X8+factor(X9)+X10+X11+X12+factor(X13)+X14+X15+X16, 
+mod1 <- glm(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16, 
             family = "binomial", data = data)
 ```
 
@@ -86,7 +56,7 @@ mod2 <- glm(factor(X2)~X4+X5+X6+X8+factor(X9)+X10+X11+X12+factor(X13)+X14+X15+X1
 train_control <- trainControl(method = "cv", number = 10)
 
 # train the model on data set
-model <- train(factor(X2)~X4+X5+X6+X8+factor(X9)+X10+X11+X12+factor(X13)+X14+X15+X16,
+model <- train(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16,
                data = data,
                trControl = train_control,
                method = "glm",
@@ -100,65 +70,80 @@ summary(model)
 ## Conclusion:
 
 ### Recall the attributes:
-1: Id	
-2: StageName (factor)	
-3: Status_Reason__c	
-\newline 4: RecordType.Name	
-\newline 5: RICE_Supported__c	
-6: CreatedDate
-\newline 7: AccountId	
-8: Lead_Faculty__c
-\newline 9: Parent_Opportunity__c (factor) 
-\newline 10: RecordType.Name.1 
-\newline 11: Industry 
-\newline 12: Business_Type__c 
-\newline 13: ParentId (factor) 
-\newline 14: RecordType 
-\newline 15: CreatedDate_month
-\newline 16: Is_External__c
+1: StageName (factor)	
+2: RecordType.Name
+3: RICE_Supported__c
+\newline 4: Actual_Close_Date__c (factor)
+\newline 5: Lead_Faculty__c
+6: Lead_School__c
+\newline 7: Parent_Opportunity__c (factor)
+\newline 8: Industry
+\newline 9: Industry_Sub_Type__c	
+\newline 10: Business_Type__c
+\newline 11: Is_External(1)__c (facotr)
+\newline 12: ParentId (factor) 
+\newline 13: CloseYear
+\newline 14: CloseMonth  
+\newline 15: CreatedYear
+\newline 16: CreatedMonth
 
 
 ### Significant Attributes:
 
-### Very significant (p-value < 0.001): 
-  X4Competitive Bid
-  \newline X4Parent Grant
-  \newline X5RIC RE&D and BD&I
-  \newline X5RIC-BD&I
-  \newline X6
-  \newline X80012e000002ZFZYAA4
-  \newline X80012e000002ZGfbAAG         
-  X80012e000002ZLg7AAG         
-  X80012e000002ZLgIAAW         
-  X80012e000002ZLgJAAW         
-  X80012e000002ZmnxAAC         
-  X80012e000002ZmnzAAC          
-  X80012e000002Zmo0AAC         
-  X80012e000002ZmOUAA0         
-  X80012e000002ZmOZAA0         
-  X80012e000002ZNYOAA4
-  X80012e000002Zt1iAAC
-  X80012e000002Zt1RAAS
+### Very significant (p-value < 0.001):
+  *Intercept
+  X2:
+    X2Competitive Bid
+    *X2Custom Education (MSPACE Included)
+    *X2Grants
+    *X2Research Contract
+  X3:
+    X3RIC RE&D and BD&I
+    X3RIC-BD&I
+  X5
+    *X50012e000002Zt0MAAS
+    X50012e000002Zt1iAAC
+    *X50012e000002Zt1zAAC
+    *X5NotGiven
+  X6
+    *X60012e000002Zt0gAAC
+    *X60012e000002Zt0ZAAS
+    *X60012e000003jZXsAAM
+  X10
+    *X10PFRO (Publicly-Funded Research Organisation)
+  X13
+  X14
+  X15
+
   
 ### Significant (0,001 < p-value < 0.01)
-  X4Sponsorship
-  \newline X4Technology Transfer
-  \newline X5RIC-RE&D
-  \newline factor(X9)1
-  \newline X12PFRO (Publicly-Funded Research Organisation)
+  X2:
+    *X2Consultancy (Non-research)
+    *X2Panel
+  X3:
+    X3RIC-RE&D
+  X5:
+    X50012e000002ZmnxAAC
+  X6:
+    X60012e000002YnrYAAS
+  X7:
+    *factor(X7)1
+  X8:
+    factor(X12)1
+
   
 ### Somehow significant (0.01 < p-value < 0.05)
-  X4Panel
-  \newline X4Philanthropic
-  \newline X4Sponsorship
-  \newline X12Multinational / Other Large Corporate
-  \newline X12Not for profit
-  
-### 0.05 < p-value < 0.1 (keep or not?)
-  X12University
-  \newline X13
-  \newline X15
 
+  X2:
+    *X2Internship
+    X2Philanthropic
+    *X2Technology Transfer
+  X5:
+    *X50012e000002ZNYOAA4
+  X6:
+    *X60012e000002Zt0jAAC
+    *X6NotGiven
+    
 
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 print(model)
