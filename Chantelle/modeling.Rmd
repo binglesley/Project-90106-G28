@@ -41,7 +41,7 @@ data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chante
 names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
                  "X11", "X12", "X13", "X14", "X15", "X16") 
 
-#summary(data)
+summary(data)
 ```
 
 Build regression model with 1 predictor ("StageName") and 15 features (X2-X6)
@@ -91,65 +91,65 @@ summary(model)
 ### Significant Attributes:
 
 ### Very significant (p-value < 0.001):
-  *Intercept
-  X2:
-    X2Competitive Bid
-    *X2Custom Education (MSPACE Included)
-    *X2Grants
-    *X2Research Contract
-  X3:
-    X3RIC RE&D and BD&I
-    X3RIC-BD&I
-  X5
-    *X50012e000002Zt0MAAS
-    X50012e000002Zt1iAAC
-    *X50012e000002Zt1zAAC
-    *X5NotGiven
-  X6
-    *X60012e000002Zt0gAAC
-    *X60012e000002Zt0ZAAS
-    *X60012e000003jZXsAAM
-  X10
-    *X10PFRO (Publicly-Funded Research Organisation)
-  X13
-  X14
-  X15
+ *Intercept
+\newline   X2:
+\newline     X2Competitive Bid
+\newline     *X2Custom Education (MSPACE Included)
+\newline     *X2Grants
+\newline     *X2Research Contract
+\newline   X3:
+\newline     X3RIC RE&D and BD&I
+\newline     X3RIC-BD&I
+\newline   X5
+\newline     *X50012e000002Zt0MAAS
+\newline     X50012e000002Zt1iAAC
+\newline     *X50012e000002Zt1zAAC
+\newline     *X5NotGiven
+\newline   X6
+\newline     *X60012e000002Zt0gAAC
+\newline     *X60012e000002Zt0ZAAS
+\newline     *X60012e000003jZXsAAM
+\newline   X10
+\newline     *X10PFRO (Publicly-Funded Research Organisation)
+\newline   X13
+\newline   X14
+\newline   X15
 
   
 ### Significant (0,001 < p-value < 0.01)
   X2:
-    *X2Consultancy (Non-research)
-    *X2Panel
-  X3:
-    X3RIC-RE&D
-  X5:
-    X50012e000002ZmnxAAC
-  X6:
-    X60012e000002YnrYAAS
-  X7:
-    *factor(X7)1
-  X8:
-    factor(X12)1
+\newline     *X2Consultancy (Non-research)
+\newline     *X2Panel
+\newline   X3:
+\newline     X3RIC-RE&D
+\newline   X5:
+\newline     X50012e000002ZmnxAAC
+\newline   X6:
+\newline     X60012e000002YnrYAAS
+\newline   X7:
+\newline     *factor(X7)1
+\newline   X8:
+\newline     factor(X12)1
 
   
 ### Somehow significant (0.01 < p-value < 0.05)
 
   X2:
-    *X2Internship
-    X2Philanthropic
-    *X2Technology Transfer
-  X5:
-    *X50012e000002ZNYOAA4
-  X6:
-    *X60012e000002Zt0jAAC
-    *X6NotGiven
+\newline     *X2Internship
+\newline     X2Philanthropic
+\newline     *X2Technology Transfer
+\newline   X5:
+\newline     *X50012e000002ZNYOAA4
+\newline   X6:
+\newline     *X60012e000002Zt0jAAC
+\newline     *X6NotGiven
     
 
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 print(model)
 ```
 ## Conclusion
-1. Accuracy drops from 99% to around 73%.
+1. Accuracy is around 73.7%.
 \newline 2. Since we have about 2:1 split for classes 0 and 1 of the "stageName", which is sort of imbalance, we might also want to look at the Kappa accuracy which is nearly 38%. According to the guideline for Kappa score, 38% is a high "fair".
 
 ## Note
@@ -165,6 +165,7 @@ is like classification accuracy, except that it is normalized at the baseline of
 ### Suggested guidelines for Kappa:
 values <= 0 as indicating no agreement 
 \newline 0.01–0.20 as none to slight
-\newline 0.21–0.40 as fair, 0.41– 0.60 as moderate,
+\newline 0.21–0.40 as fair
+\newline 0.41– 0.60 as moderate,
 \newline 0.61–0.80 as substantial
 \newline 0.81–1.00 as almost perfect agreement.
