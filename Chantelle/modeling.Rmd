@@ -18,35 +18,35 @@ library(caret)
 1: StageName (factor)	
 2: RecordType.Name
 3: RICE_Supported__c
-\newline 4: Actual_Close_Date__c (factor)
-\newline 5: Lead_Faculty__c
-6: Lead_School__c
-\newline 7: Parent_Opportunity__c (factor)
-\newline 8: Industry
-\newline 9: Industry_Sub_Type__c	
-\newline 10: Business_Type__c
-\newline 11: Is_External(1)__c (facotr)
-\newline 12: ParentId (factor) 
-\newline 13: CloseYear
-\newline 14: CloseMonth  
+\newline 4: CreatedDate
+\newline 5: Actual_Close_Date__c (factor)
+\newline 6: Lead_Faculty__c
+\newline 7: Lead_School__c
+\newline 8: Parent_Opportunity__c (factor)
+\newline 9: RecordType.Name.1
+\newline 10: Industry
+\newline 11: Industry_Sub_Type__c	
+\newline 12: Business_Type__c
+\newline 13: Is_External__c (facotr)
+\newline 14: ParentId (factor) 
 \newline 15: CreatedYear
 \newline 16: CreatedMonth 
 
 
-
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 # Reading Data In
-data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_9_Sep.csv",
+data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_1-OCT-modelling.csv",
                  header = TRUE, stringsAsFactors = T)
 names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
-                 "X11", "X12", "X13", "X14", "X15", "X16") 
+                 "X11", "X12", "X13", "X14", "X15","X16") 
+
 
 summary(data)
 ```
 
 Build regression model with 1 predictor ("StageName") and 15 features (X2-X6)
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
-mod1 <- glm(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16, 
+mod1 <- glm(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16, 
             family = "binomial", data = data)
 ```
 
@@ -56,7 +56,7 @@ mod1 <- glm(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+f
 train_control <- trainControl(method = "cv", number = 10)
 
 # train the model on data set
-model <- train(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16,
+model <- train(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16,
                data = data,
                trControl = train_control,
                method = "glm",
