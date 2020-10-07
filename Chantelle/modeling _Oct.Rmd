@@ -42,6 +42,10 @@ names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
 
 summary(data)
 ```
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+mod1 <- glm(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16, 
+            family = "binomial", data = data)
+```
 
 Build regression model with 1 predictor ("StageName") and 15 features (X2-X16)
 ```{r eval=FALSE, message=FALSE, warning=FALSE, cache=TRUE, include=FALSE}
@@ -57,6 +61,12 @@ model <- train(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+fa
 ```
 
 
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+summary(model)
+```
+
+
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 # Reading Data In
 data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_15_Sep.csv",
@@ -69,7 +79,7 @@ summary(data)
 ```
 
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
-mod1 <- glm(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16+X17, 
+mod2 <- glm(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X13+X14+X15+X16+X17, 
             family = "binomial", data = data)
 ```
 
