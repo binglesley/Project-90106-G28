@@ -42,6 +42,7 @@ names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
 
 summary(data)
 ```
+
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 mod1 <- glm(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16, 
             family = "binomial", data = data)
@@ -95,6 +96,30 @@ model <- train(factor(X1)~X2+X3+factor(X4)+X5+X6+factor(X7)+X8+X9+X10+factor(X11
                family="binomial")
 ```
 
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+# 10-fold cross_validation
+train_control <- trainControl(method = "cv", number = 10)
+
+# train the model on data set
+model <- train(factor(X1)~X2+X3+X5+X6+factor(X7)+X8+X9+X10+factor(X11)+factor(X12)+X15+X16+X17,
+               data = data,
+               trControl = train_control,
+               method = "glm",
+               family="binomial")
+```
+
+
 ```{r,echo=T, eval=T,cache=T, message=F,warning=F}
 summary(model)
+```
+
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+print(model)
+```
+
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+confusionMatrix(model)
 ```
