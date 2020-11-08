@@ -1,0 +1,171 @@
+---
+title: "Logistic Regression Modeling (Cleaned_3.csv)"
+author: "Ziyan Zhao"
+date: "02/09/2020"
+output: pdf_document
+header-includes: \usepackage{color,amsmath}
+fontsize: 12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lattice)
+library(ggplot2)
+library(caret)
+```
+
+### Attributes:
+1: StageName (factor)	
+2: RecordType.Name
+3: RICE_Supported__c
+\newline 4: CreatedDate
+\newline 5: Actual_Close_Date__c (factor)
+\newline 6: Lead_Faculty__c
+\newline 7: Lead_School__c
+\newline 8: Parent_Opportunity__c (factor)
+\newline 9: RecordType.Name.1
+\newline 10: Industry
+\newline 11: Industry_Sub_Type__c	
+\newline 12: Business_Type__c
+\newline 13: Is_External__c (facotr)
+\newline 14: ParentId (factor) 
+\newline 15: CreatedYear
+\newline 16: CreatedMonth 
+
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+# Reading Data In
+data <- read.csv("/Users/ChantelleChiu/Documents/GitHub/Project-90106-G28/Chantelle/cleaned_1-OCT-modelling.csv",
+                 header = TRUE, stringsAsFactors = T)
+names(data) <- c("X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8", "X9", "X10",
+                 "X11", "X12", "X13", "X14", "X15","X16") 
+
+
+summary(data)
+```
+
+Build regression model with 1 predictor ("StageName") and 15 features (X2-X6)
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+mod1 <- glm(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16, 
+            family = "binomial", data = data)
+```
+
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+# 10-fold cross_validation
+train_control <- trainControl(method = "cv", number = 10)
+
+# train the model on data set
+model <- train(factor(X1)~X2+X3+X4+factor(X5)+X6+X7+factor(X8)+X9+X10+X11+X12+factor(X13)+factor(X14)+X15+X16,
+               data = data,
+               trControl = train_control,
+               method = "glm",
+               family="binomial")
+```
+
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+summary(model)
+```
+## Conclusion:
+
+### Recall the attributes:
+1: StageName (factor)	
+2: RecordType.Name
+3: RICE_Supported__c
+\newline 4: Actual_Close_Date__c (factor)
+\newline 5: Lead_Faculty__c
+6: Lead_School__c
+\newline 7: Parent_Opportunity__c (factor)
+\newline 8: Industry
+\newline 9: Industry_Sub_Type__c	
+\newline 10: Business_Type__c
+\newline 11: Is_External(1)__c (facotr)
+\newline 12: ParentId (factor) 
+\newline 13: CloseYear
+\newline 14: CloseMonth  
+\newline 15: CreatedYear
+\newline 16: CreatedMonth
+
+
+### Significant Attributes:
+
+### Very significant (p-value < 0.001):
+ *Intercept
+\newline   X2:
+\newline     X2Competitive Bid
+\newline     *X2Custom Education (MSPACE Included)
+\newline     *X2Grants
+\newline     *X2Research Contract
+\newline   X3:
+\newline     X3RIC RE&D and BD&I
+\newline     X3RIC-BD&I
+\newline   X5
+\newline     *X50012e000002Zt0MAAS
+\newline     X50012e000002Zt1iAAC
+\newline     *X50012e000002Zt1zAAC
+\newline     *X5NotGiven
+\newline   X6
+\newline     *X60012e000002Zt0gAAC
+\newline     *X60012e000002Zt0ZAAS
+\newline     *X60012e000003jZXsAAM
+\newline   X10
+\newline     *X10PFRO (Publicly-Funded Research Organisation)
+\newline   X13
+\newline   X14
+\newline   X15
+
+  
+### Significant (0,001 < p-value < 0.01)
+  X2:
+\newline     *X2Consultancy (Non-research)
+\newline     *X2Panel
+\newline   X3:
+\newline     X3RIC-RE&D
+\newline   X5:
+\newline     X50012e000002ZmnxAAC
+\newline   X6:
+\newline     X60012e000002YnrYAAS
+\newline   X7:
+\newline     *factor(X7)1
+\newline   X8:
+\newline     factor(X12)1
+
+  
+### Somehow significant (0.01 < p-value < 0.05)
+
+  X2:
+\newline     *X2Internship
+\newline     X2Philanthropic
+\newline     *X2Technology Transfer
+\newline   X5:
+\newline     *X50012e000002ZNYOAA4
+\newline   X6:
+\newline     *X60012e000002Zt0jAAC
+\newline     *X6NotGiven
+    
+
+```{r,echo=T, eval=T,cache=T, message=F,warning=F}
+print(model)
+```
+## Conclusion
+1. Accuracy is around 73.7%.
+\newline 2. Since we have about 2:1 split for classes 0 and 1 of the "stageName", which is sort of imbalance, we might also want to look at the Kappa accuracy which is nearly 38%. According to the guideline for Kappa score, 38% is a high "fair".
+
+## Note
+from website
+https://machinelearningmastery.com/machine-learning-evaluation-metrics-in-r/
+
+### Accuracy 
+is the percentage of correctly classifies instances out of all instances. It is more useful on a binary classification than multi-class classification problems because it can be less clear exactly how the accuracy breaks down across those classes.
+
+### Kappa or Cohen’s Kappa 
+is like classification accuracy, except that it is normalized at the baseline of random chance on your dataset. It is a more useful measure to use on problems that have an imbalance in the classes (e.g. 70-30 split for classes 0 and 1 and you can achieve 70% accuracy by predicting all instances are for class 0).
+
+### Suggested guidelines for Kappa:
+values <= 0 as indicating no agreement 
+\newline 0.01–0.20 as none to slight
+\newline 0.21–0.40 as fair
+\newline 0.41– 0.60 as moderate,
+\newline 0.61–0.80 as substantial
+\newline 0.81–1.00 as almost perfect agreement.
