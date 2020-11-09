@@ -2,12 +2,14 @@ from sklearn.svm import SVC
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import Normalizer
 import datetime as dt
+import pandas as pd
 
 def method_logit(train_set,label_set,test_set,ground_truth):
     # Baseline for begining analysis
@@ -58,11 +60,28 @@ def method_rf(train_set,label_set,test_set,ground_truth,Trains):
     end = dt.datetime.now()
     y = forest_clf.predict(test_set)
 
+    # Predict
+    """predict_result = []
+
+    for item in y:
+        if item == 0:
+            predict_result.append('Lose')
+        else:
+            predict_result.append('Win')
+
+    predict_result = pd.DataFrame(predict_result)
+    ground_truth = pd.DataFrame(ground_truth)
+    temp = [ground_truth,predict_result]
+    Result = pd.concat(temp,axis=1)
+    save_path = os.path.join(os.getcwd(),'Result.csv')
+    Result.to_csv(save_path)
+    print(Result)"""
+
     print(end - start) # calculates the runtime
-    print('svm_precision for each labels:', precision_score(y, ground_truth), '\n')
-    print('svm_recall for each labels:', recall_score(y, ground_truth), '\n')
-    print('svm_f1 for each labels:', f1_score(y, ground_truth), '\n')
-    print('svm accuracy', forest_clf.score(test_set, ground_truth))
+    print('rf_precision for each labels:', precision_score(y, ground_truth), '\n')
+    print('rf_recall for each labels:', recall_score(y, ground_truth), '\n')
+    print('rf_f1 for each labels:', f1_score(y, ground_truth), '\n')
+    print('rf accuracy', forest_clf.score(test_set, ground_truth))
 
     feature_importance = forest_clf.feature_importances_
     sorted_idx = np.argsort(feature_importance)
