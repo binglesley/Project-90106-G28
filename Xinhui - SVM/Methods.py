@@ -62,6 +62,7 @@ def method_rf(train_set,label_set,test_set,ground_truth,Trains):
 
     # Predict
     """predict_result = []
+    Prob_result = forest_clf.predict_proba(test_set)
 
     for item in y:
         if item == 0:
@@ -69,10 +70,12 @@ def method_rf(train_set,label_set,test_set,ground_truth,Trains):
         else:
             predict_result.append('Win')
 
-    predict_result = pd.DataFrame(predict_result)
-    ground_truth = pd.DataFrame(ground_truth)
-    temp = [ground_truth,predict_result]
+    predict_result = pd.DataFrame(predict_result,columns=['Predict classisication'])
+    ground_truth = pd.DataFrame(ground_truth,columns=['Opportunity Id'])
+    Prob_result = pd.DataFrame(Prob_result,columns=['Lose Probability','Win Probability'])
+    temp = [ground_truth,predict_result,Prob_result]
     Result = pd.concat(temp,axis=1)
+
     save_path = os.path.join(os.getcwd(),'Result.csv')
     Result.to_csv(save_path)
     print(Result)"""
