@@ -1,0 +1,1377 @@
+Opportunity Id,Prediction result,StageName
+0062e000002HFauAAG,Win,Submitting
+0062e000002HFayAAG,Win,Awaiting Results
+0062e000002HFbAAAW,Win,Submitting
+0062e000002HFbBAAW,Win,Awaiting Results
+0062e000002HFbCAAW,Win,Awaiting Results
+0062e000002HFbEAAW,Win,Awaiting Results
+0062e000002HFbFAAW,Win,Submitting
+0062e000002HFbGAAW,Win,Submitting
+0062e000002HFbKAAW,Win,Submitting
+0062e000002HFtlAAG,Win,Proposing
+0062e000002HFuKAAW,Lose,Identifying
+0062e000002HFuNAAW,Win,Identifying
+0062e000002HFupAAG,Win,Awaiting Results
+0062e000002HFuvAAG,Win,Developing
+0062e000002HFvbAAG,Lose,Identifying
+0062e000002HFviAAG,Lose,Identifying
+0062e000002HFvZAAW,Win,Identifying
+0062e000002HFw3AAG,Win,Identifying
+0062e000002HFw8AAG,Win,Identifying
+0062e000002HFw9AAG,Win,Identifying
+0062e000002HFwBAAW,Win,Developing
+0062e000002HFwHAAW,Win,Identifying
+0062e000002HFwOAAW,Win,Proposing
+0062e000002HFwsAAG,Win,Developing
+0062e000002HFxeAAG,Win,Identifying
+0062e000002HFxNAAW,Win,Awaiting Results
+0062e000002HFxZAAW,Win,Identifying
+0062e000002HFy1AAG,Lose,Identifying
+0062e000002HFzEAAW,Lose,Identifying
+0062e000002HFzhAAG,Win,Identifying
+0062e000002HFzjAAG,Lose,Identifying
+0062e000002HFzqAAG,Lose,Identifying
+0062e000002HG0LAAW,Win,Identifying
+0062e000002HG0MAAW,Lose,Identifying
+0062e000002HG10AAG,Win,Identifying
+0062e000002HG11AAG,Lose,Identifying
+0062e000002HG12AAG,Win,Identifying
+0062e000002HG3HAAW,Lose,Identifying
+0062e000002HG3IAAW,Lose,Identifying
+0062e000002HG3MAAW,Lose,Develop Relationship/ Qualify opportunity
+0062e000002HG3NAAW,Lose,Develop Relationship/ Qualify opportunity
+0062e000002HG3PAAW,Lose,Execution / Closing
+0062e000002HG3QAAW,Lose,Execution / Closing
+0062e000002HG3RAAW,Lose,Develop Relationship/ Qualify opportunity
+0062e000002HG3SAAW,Lose,Negotiation / Propose
+0062e000002HG3UAAW,Lose,Developing
+0062e000002HG3wAAG,Lose,Developing
+0062e000002HG44AAG,Win,Identifying
+0062e000002HG4JAAW,Win,Proposing
+0062e000002HG52AAG,Win,Identifying
+0062e000002HG60AAG,Lose,Application
+0062e000002HG62AAG,Lose,Awaiting Results
+0062e000002HG67AAG,Win,Identifying
+0062e000002HG6BAAW,Lose,Application
+0062e000002HG6GAAW,Lose,Identifying
+0062e000002HG6NAAW,Win,Identifying
+0062e000002HG6QAAW,Lose,Identifying
+0062e000002HG6xAAG,Lose,Developing
+0062e000002HG7BAAW,Win,Developing
+0062e000002HG7HAAW,Lose,Developing
+0062e000002HG89AAG,Win,Identifying
+0062e000002HG8zAAG,Win,Developing
+0062e000002HG9bAAG,Lose,Identifying
+0062e000002HG9cAAG,Lose,Identifying
+0062e000002HGA5AAO,Lose,Pre-submission
+0062e000002HGAJAA4,Lose,Pre-submission
+0062e000002HGbSAAW,Lose,Awaiting Results
+0062e000002HGC0AAO,Lose,Proposing
+0062e000002HGc3AAG,Lose,Proposing
+0062e000002HGcbAAG,Lose,Awaiting Results
+0062e000002HGccAAG,Lose,Awaiting Results
+0062e000002HGcdAAG,Lose,Awaiting Results
+0062e000002HGcfAAG,Lose,Awaiting Results
+0062e000002HGcjAAG,Lose,Awaiting Results
+0062e000002HGcTAAW,Lose,Execution / Closing
+0062e000002HGD4AAO,Lose,Identifying
+0062e000002HGD6AAO,Win,Closing
+0062e000002HGDpAAO,Lose,Identifying
+0062e000002HGDqAAO,Lose,Identifying
+0062e000002HGdsAAG,Lose,Application
+0062e000002HGDWAA4,Lose,Identifying
+0062e000002HGDwAAO,Lose,Identifying
+0062e000002HGDxAAO,Lose,Identifying
+0062e000002HGe4AAG,Win,Awaiting Results
+0062e000002HGe5AAG,Lose,Identifying
+0062e000002HGEaAAO,Lose,Identifying
+0062e000002HGeCAAW,Win,Identifying
+0062e000002HGedAAG,Win,Identifying
+0062e000002HGeEAAW,Lose,Execute Contract
+0062e000002HGeGAAW,Lose,Identifying
+0062e000002HGeKAAW,Lose,Identifying
+0062e000002HGenAAG,Lose,Identifying
+0062e000002HGeTAAW,Lose,Awaiting Results
+0062e000002HGeuAAG,Lose,Awaiting Results
+0062e000002HGevAAG,Lose,Closing
+0062e000002HGeVAAW,Win,Identifying
+0062e000002HGeyAAG,Lose,Identifying
+0062e000002HGf0AAG,Lose,Proposing
+0062e000002HGf2AAG,Lose,Proposing
+0062e000002HGF7AAO,Lose,Developing
+0062e000002HGFaAAO,Lose,Identifying
+0062e000002HGfAAAW,Lose,Closing
+0062e000002HGFeAAO,Lose,Identifying
+0062e000002HGfEAAW,Lose,Identifying
+0062e000002HGflAAG,Lose,Triage / Develop Opportunity
+0062e000002HGfmAAG,Lose,Negotiation / Propose
+0062e000002HGfoAAG,Lose,Identifying
+0062e000002HGfpAAG,Lose,Execution / Closing
+0062e000002HGfPAAW,Lose,Identifying
+0062e000002HGfqAAG,Lose,Identifying
+0062e000002HGftAAG,Lose,Identifying
+0062e000002HGfuAAG,Lose,Identifying
+0062e000002HGfyAAG,Lose,Identifying
+0062e000002HGfYAAW,Lose,Identifying
+0062e000002HGg2AAG,Win,Identifying
+0062e000002HGg3AAG,Lose,Identifying
+0062e000002HGg4AAG,Lose,Identifying
+0062e000002HGG4AAO,Lose,Identifying
+0062e000002HGg6AAG,Lose,Identifying
+0062e000002HGg7AAG,Lose,Identifying
+0062e000002HGg8AAG,Lose,Identifying
+0062e000002HGg9AAG,Win,Identifying
+0062e000002HGgAAAW,Win,Identifying
+0062e000002HGgIAAW,Lose,Proposing
+0062e000002HGgOAAW,Lose,Closing
+0062e000002HGgpAAG,Lose,Proposing
+0062e000002HGh2AAG,Lose,Closing
+0062e000002HGh4AAG,Lose,Identifying
+0062e000002HGhcAAG,Lose,Identifying
+0062e000002HGhiAAG,Lose,Identifying
+0062e000002HGhLAAW,Lose,Identifying
+0062e000002HGHOAA4,Lose,Developing
+0062e000002HGHPAA4,Lose,Proposing
+0062e000002HGHQAA4,Lose,Developing
+0062e000002HGHRAA4,Lose,Proposing
+0062e000002HGHUAA4,Lose,Application
+0062e000002HGHVAA4,Win,Application
+0062e000002HGhZAAW,Lose,Developing
+0062e000002HGI2AAO,Lose,Application
+0062e000002HGI3AAO,Lose,Identifying
+0062e000002HGIAAA4,Lose,Application
+0062e000002HGIDAA4,Lose,Application
+0062e000002HGifAAG,Lose,Identifying
+0062e000002HGIfAAO,Lose,Developing
+0062e000002HGijAAG,Lose,Negotiation / Propose
+0062e000002HGimAAG,Lose,Developing
+0062e000002HGipAAG,Lose,Proposing
+0062e000002HGjEAAW,Lose,Identifying
+0062e000002HGjkAAG,Lose,Developing
+0062e000002HGM6AAO,Lose,Identifying
+0062e000002HGM7AAO,Lose,Developing
+0062e000002HGM9AAO,Lose,Developing
+0062e000002HGMAAA4,Lose,Identifying
+0062e000002HGMBAA4,Lose,Developing
+0062e000002HGMFAA4,Lose,Application
+0062e000002HGMHAA4,Lose,Application
+0062e000002HGMKAA4,Lose,Application
+0062e000002HGMLAA4,Lose,Application
+0062e000002HGMMAA4,Lose,Application
+0062e000002HGMNAA4,Win,Application
+0062e000002HGNBAA4,Lose,Developing
+0062e000002HGNdAAO,Lose,Developing
+0062e000002HGnqAAG,Lose,Awaiting Results
+0062e000002HGo2AAG,Lose,Identifying
+0062e000002HGO2AAO,Lose,Proposing
+0062e000002HGO3AAO,Lose,Proposing
+0062e000002HGO5AAO,Lose,Identifying
+0062e000002HGO6AAO,Lose,Identifying
+0062e000002HGO8AAO,Lose,Develop Relationship/ Qualify opportunity
+0062e000002HGoCAAW,Lose,Closing
+0062e000002HGOjAAO,Lose,Developing
+0062e000002HGOlAAO,Lose,Identifying
+0062e000002HGOoAAO,Lose,Identifying
+0062e000002HGoRAAW,Lose,Identifying
+0062e000002HGOTAA4,Lose,Develop Relationship/ Qualify opportunity
+0062e000002Hgp2AAC,Lose,Closing
+0062e000002HGp5AAG,Lose,Execute Contract
+0062e000002HGPgAAO,Lose,Proposing
+0062e000002HGpqAAG,Win,Proposing
+0062e000002HGPqAAO,Lose,Developing
+0062e000002HGPxAAO,Lose,Identifying
+0062e000002Hgq0AAC,Lose,Closing
+0062e000002HGQ0AAO,Lose,Proposing
+0062e000002HGqFAAW,Lose,Proposing
+0062e000002HGQiAAO,Lose,Developing
+0062e000002HGqKAAW,Lose,Identifying
+0062e000002HGQlAAO,Lose,Developing
+0062e000002HGqMAAW,Lose,Identifying
+0062e000002HGqNAAW,Win,Identifying
+0062e000002HGrFAAW,Lose,Proposing
+0062e000002HGrIAAW,Lose,Developing
+0062e000002HGrvAAG,Lose,Identifying
+0062e000002HgskAAC,Lose,Developing
+0062e000002HgsVAAS,Lose,Proposing
+0062e000002HGtbAAG,Lose,Proposing
+0062e000002HGTiAAO,Lose,Developing
+0062e000002HGtwAAG,Lose,Developing
+0062e000002HGu1AAG,Lose,Developing
+0062e000002HGu3AAG,Lose,Proposing
+0062e000002HGU7AAO,Lose,Awaiting Results
+0062e000002HGulAAG,Lose,Proposing
+0062e000002HGuPAAW,Lose,Application
+0062e000002HGuwAAG,Lose,Awaiting Results
+0062e000002HGv8AAG,Lose,Application
+0062e000002HGv9AAG,Lose,Application
+0062e000002HGvFAAW,Lose,Application
+0062e000002HGvGAAW,Lose,Application
+0062e000002HGvRAAW,Lose,Awaiting Results
+0062e000002HGWwAAO,Lose,Proposing
+0062e000002HGyfAAG,Lose,Closing
+0062e000002HGzcAAG,Lose,Identifying
+0062e000002HgzDAAS,Lose,Identifying
+0062e000002HH0RAAW,Lose,Awaiting Results
+0062e000002HH2DAAW,Lose,Developing
+0062e000002HH2HAAW,Lose,Awaiting Results
+0062e000002HH2lAAG,Lose,Proposing
+0062e000002HH2nAAG,Lose,Developing
+0062e000002HH34AAG,Lose,Identifying
+0062e000002HH35AAG,Lose,Closing
+0062e000002HH3BAAW,Lose,Closing
+0062e000002HH3KAAW,Lose,Developing
+0062e000002HH3xAAG,Lose,Proposing
+0062e000002HH3yAAG,Lose,Proposing
+0062e000002HH3zAAG,Lose,Identifying
+0062e000002HH40AAG,Lose,Identifying
+0062e000002HH44AAG,Lose,Identifying
+0062e000002HH45AAG,Lose,Proposing
+0062e000002HH46AAG,Lose,Identifying
+0062e000002HH47AAG,Lose,Identifying
+0062e000002HH4AAAW,Lose,Identifying
+0062e000002HH4BAAW,Lose,Identifying
+0062e000002HH4CAAW,Lose,Identifying
+0062e000002HH4DAAW,Lose,Proposing
+0062e000002HH4fAAG,Lose,Identifying
+0062e000002HH4GAAW,Lose,Identifying
+0062e000002HH4HAAW,Lose,Identifying
+0062e000002HH4IAAW,Win,Awaiting Results
+0062e000002HH4RAAW,Lose,Proposing
+0062e000002HH56AAG,Lose,Proposing
+0062e000002HH5NAAW,Lose,Proposing
+0062e000002HH5YAAW,Lose,Proposing
+0062e000002HH67AAG,Lose,Proposing
+0062e000002HH6aAAG,Lose,Identifying
+0062e000002HH6bAAG,Lose,Identifying
+0062e000002HH6dAAG,Lose,Identifying
+0062e000002HH6gAAG,Lose,Identifying
+0062e000002HH6XAAW,Lose,Identifying
+0062e000002HH74AAG,Lose,Developing
+0062e000002HH75AAG,Lose,Identifying
+0062e000002HH7TAAW,Lose,Proposing
+0062e000002HH9NAAW,Lose,Proposing
+0062e000002HH9PAAW,Lose,Awaiting Results
+0062e000002HH9VAAW,Lose,Negotiation / Propose
+0062e000002HH9WAAW,Lose,Proposing
+0062e000002HH9XAAW,Lose,Pre-submission
+0062e000002HH9YAAW,Lose,Awaiting Results
+0062e000002HH9ZAAW,Lose,Awaiting Results
+0062e000002HHA9AAO,Lose,Proposing
+0062e000002HHAEAA4,Lose,Proposing
+0062e000002HHBbAAO,Lose,Identifying
+0062e000002HHBFAA4,Lose,Identifying
+0062e000002HHBGAA4,Lose,Identifying
+0062e000002HHBIAA4,Lose,Closing
+0062e000002HHBRAA4,Lose,Identifying
+0062e000002HHBSAA4,Lose,Identifying
+0062e000002HHBUAA4,Lose,Identifying
+0062e000002HHBWAA4,Lose,Identifying
+0062e000002HHBXAA4,Lose,Identifying
+0062e000002HHBYAA4,Lose,Identifying
+0062e000002HHCKAA4,Lose,Developing
+0062e000002HHCLAA4,Lose,Proposing
+0062e000002HHCpAAO,Win,Proposing
+0062e000002HHCUAA4,Lose,Identifying
+0062e000002HHDDAA4,Lose,Developing
+0062e000002HHEFAA4,Lose,Closing
+0062e000002HHEJAA4,Lose,Identifying
+0062e000002HHEpAAO,Lose,Proposing
+0062e000002HHEWAA4,Lose,Application
+0062e000002HHFjAAO,Lose,Awaiting Results
+0062e000002HHFpAAO,Lose,Developing
+0062e000002HHFqAAO,Lose,Awaiting Results
+0062e000002HHHfAAO,Lose,Execute Contract
+0062e000002HHICAA4,Lose,Closing
+0062e000002HHIGAA4,Lose,Identifying
+0062e000002HHIJAA4,Lose,Closing
+0062e000002HHImAAO,Lose,Proposing
+0062e000002HHIwAAO,Lose,Identifying
+0062e000002HHLlAAO,Lose,Proposing
+0062e000002HHLpAAO,Lose,Proposing
+0062e000002HHO2AAO,Lose,Identifying
+0062e000002HHO8AAO,Lose,Proposing
+0062e000002HHP0AAO,Lose,Application
+0062e000002HHQ4AAO,Lose,Proposing
+0062e000002Hk21AAC,Lose,Submitting
+0062e000002Hk3RAAS,Lose,Awaiting Results
+0062e000002Hk40AAC,Lose,Awaiting Results
+0062e000002Hk5rAAC,Lose,Application
+0062e000002Hk8RAAS,Win,Closing
+0062e000002HkfZAAS,Lose,Identifying
+0062e000002Hn8wAAC,Lose,Awaiting Results
+0062e000002Hn96AAC,Lose,Awaiting Results
+0062e000002HnCPAA0,Lose,Application
+0062e000002HSYDAA4,Lose,Proposing
+0062e000002HvWMAA0,Lose,Identifying
+0062e000002HzqAAAS,Lose,Developing
+0062e000002I0IAAA0,Lose,Identifying
+0062e000002I8IWAA0,Win,Developing
+0062e000002IAgGAAW,Lose,Application
+0062e000002IAgkAAG,Lose,Application
+0062e000002IFxHAAW,Lose,Negotiation / Propose
+0062e000002IG6OAAW,Win,Awaiting Results
+0062e000002IGaiAAG,Lose,Pre-submission
+0062e000002IGb7AAG,Lose,Application
+0062e000002IIwGAAW,Lose,Awaiting Results
+0062e000002IIybAAG,Lose,Awaiting Results
+0062e000002IIz5AAG,Lose,Awaiting Results
+0062e000002IkibAAC,Lose,Closing
+0062e000002IkmTAAS,Win,Closing
+0062e000002IknvAAC,Lose,Developing
+0062e000002IkVIAA0,Lose,Developing
+0062e000002IlscAAC,Lose,Awaiting Results
+0062e000002IlsDAAS,Lose,Awaiting Results
+0062e000002IltBAAS,Lose,Awaiting Results
+0062e000002IltVAAS,Lose,Awaiting Results
+0062e000002Ilv7AAC,Lose,Awaiting Results
+0062e000002Io5yAAC,Lose,Pre-submission
+0062e000002IpvmAAC,Lose,Awaiting Results
+0062e000002IQHBAA4,Lose,Proposing
+0062e000002IQHkAAO,Lose,Proposing
+0062e000002IrYQAA0,Lose,Awaiting Results
+0062e000002IsMmAAK,Lose,Proposing
+0062e000002IU1fAAG,Lose,Negotiation / Propose
+0062e000002IVJCAA4,Lose,Developing
+0062e000002Iw9xAAC,Win,Awaiting Results
+0062e000002IwDqAAK,Lose,Awaiting Results
+0062e000002IWPeAAO,Lose,Closing
+0062e000002IX7iAAG,Lose,Awaiting Results
+0062e000002IX8qAAG,Lose,Awaiting Results
+0062e000002IxRzAAK,Lose,Awaiting Results
+0062e000002IyEfAAK,Lose,Identifying
+0062e000002IzN9AAK,Lose,Proposing
+0062e000002JAvMAAW,Lose,Awaiting Results
+0062e000002JBARAA4,Lose,Proposing
+0062e000002JC2vAAG,Lose,Proposing
+0062e000002JdEBAA0,Lose,Developing
+0062e000002JEMOAA4,Lose,Pre-submission
+0062e000002JF1qAAG,Lose,Awaiting Results
+0062e000002JF3IAAW,Lose,Awaiting Results
+0062e000002JFCFAA4,Lose,Awaiting Results
+0062e000002JfxiAAC,Lose,Application
+0062e000002JfxTAAS,Lose,Pre-submission
+0062e000002JiKyAAK,Lose,Developing
+0062e000002JIOZAA4,Lose,Proposing
+0062e000002JlcgAAC,Lose,Submitting
+0062e000002JldZAAS,Lose,Application
+0062e000002JlhMAAS,Lose,Awaiting Results
+0062e000002JljIAAS,Lose,Awaiting Results
+0062e000002JllnAAC,Lose,Awaiting Results
+0062e000002JlsZAAS,Lose,Awaiting Results
+0062e000002Jlt8AAC,Lose,Awaiting Results
+0062e000002JltmAAC,Lose,Awaiting Results
+0062e000002JlviAAC,Lose,Awaiting Results
+0062e000002JlwlAAC,Lose,Awaiting Results
+0062e000002Jlz1AAC,Lose,Awaiting Results
+0062e000002Jm1CAAS,Lose,Awaiting Results
+0062e000002Jm1lAAC,Lose,Awaiting Results
+0062e000002Jm6HAAS,Lose,Awaiting Results
+0062e000002Jo3IAAS,Lose,Proposing
+0062e000002JP48AAG,Lose,Developing
+0062e000002JPeBAAW,Lose,Developing
+0062e000002JPR7AAO,Lose,Developing
+0062e000002JQ3sAAG,Lose,Pre-submission
+0062e000002JQ4bAAG,Lose,Awaiting Results
+0062e000002JQ4HAAW,Lose,Awaiting Results
+0062e000002JQUJAA4,Win,Developing
+0062e000002JRUlAAO,Lose,Pre-submission
+0062e000002JUlvAAG,Lose,Identifying
+0062e000002JUo6AAG,Lose,Identifying
+0062e000002JUvdAAG,Lose,Developing
+0062e000002JUzBAAW,Lose,Identifying
+0062e000002JV0sAAG,Lose,Identifying
+0062e000002JV0xAAG,Lose,Identifying
+0062e000002JWfmAAG,Lose,Developing
+0062e000002JWWZAA4,Lose,Identifying
+0062e000002JXmbAAG,Lose,Awaiting Results
+0062e000002JYdQAAW,Lose,Awaiting Results
+0062e000002JYdzAAG,Win,Pre-submission
+0062e000002JYEaAAO,Win,Pre-submission
+0062e000002JZ5PAAW,Lose,Developing
+0062e000002JZp8AAG,Lose,Proposing
+0062e000002K3HbAAK,Lose,Awaiting Results
+0062e000002K3lgAAC,Lose,Proposing
+0062e000002K3ZkAAK,Lose,Awaiting Results
+0062e000002K4DuAAK,Lose,Awaiting Results
+0062e000002K4EEAA0,Lose,Awaiting Results
+0062e000002K4wbAAC,Lose,Awaiting Results
+0062e000002K590AAC,Lose,Awaiting Results
+0062e000002KbDEAA0,Lose,Pre-submission
+0062e000002KD6cAAG,Lose,Awaiting Results
+0062e000002KD6IAAW,Lose,Awaiting Results
+0062e000002Kdn1AAC,Lose,Submitting
+0062e000002KdnaAAC,Lose,Awaiting Results
+0062e000002KeIJAA0,Lose,Awaiting Results
+0062e000002KEq5AAG,Lose,Pre-submission
+0062e000002KExpAAG,Lose,Awaiting Results
+0062e000002Kg8nAAC,Lose,Application
+0062e000002KGQkAAO,Lose,Awaiting Results
+0062e000002KGWYAA4,Lose,Developing
+0062e000002KjMTAA0,Lose,Proposing
+0062e000002KKa7AAG,Lose,Closing
+0062e000002KKhSAAW,Win,Submitting
+0062e000002KKi6AAG,Lose,Submitting
+0062e000002KKMKAA4,Lose,Awaiting Results
+0062e000002KKMLAA4,Lose,Awaiting Results
+0062e000002KKqnAAG,Lose,Awaiting Results
+0062e000002KKupAAG,Lose,Awaiting Results
+0062e000002KKwgAAG,Lose,Awaiting Results
+0062e000002KKwMAAW,Lose,Awaiting Results
+0062e000002KLhkAAG,Lose,Proposing
+0062e000002KLLjAAO,Lose,Submitting
+0062e000002KM4PAAW,Lose,Developing
+0062e000002KM53AAG,Lose,Proposing
+0062e000002KM5mAAG,Lose,Identifying
+0062e000002KM5XAAW,Lose,Identifying
+0062e000002KM6BAAW,Lose,Proposing
+0062e000002KM6kAAG,Lose,Proposing
+0062e000002KM74AAG,Lose,Proposing
+0062e000002KM7TAAW,Lose,Proposing
+0062e000002KM7xAAG,Lose,Proposing
+0062e000002KM8bAAG,Lose,Proposing
+0062e000002KM8vAAG,Lose,Identifying
+0062e000002KNxoAAG,Win,Identifying
+0062e000002KNZoAAO,Lose,Awaiting Results
+0062e000002KO9yAAG,Lose,Identifying
+0062e000002KognAAC,Lose,Proposing
+0062e000002KOLQAA4,Lose,Identifying
+0062e000002KozXAAS,Lose,Developing
+0062e000002KP25AAG,Lose,Proposing
+0062e000002KP5OAAW,Lose,Submitting
+0062e000002KP5sAAG,Lose,Awaiting Results
+0062e000002KpCgAAK,Lose,Awaiting Results
+0062e000002KpCvAAK,Lose,Awaiting Results
+0062e000002KpDUAA0,Lose,Awaiting Results
+0062e000002KpE8AAK,Lose,Awaiting Results
+0062e000002KPNVAA4,Lose,Awaiting Results
+0062e000002KPOJAA4,Lose,Submitting
+0062e000002KPQFAA4,Lose,Submitting
+0062e000002KPR3AAO,Lose,Submitting
+0062e000002KqfXAAS,Lose,Awaiting Results
+0062e000002Ks88AAC,Lose,Developing
+0062e000002KTXCAA4,Lose,Pre-submission
+0062e000002KtzjAAC,Lose,Awaiting Results
+0062e000002Ku1fAAC,Lose,Pre-submission
+0062e000002KWb1AAG,Lose,Awaiting Results
+0062e000002KWdvAAG,Lose,Proposing
+0062e000002KWSYAA4,Lose,Submitting
+0062e000002KWYgAAO,Lose,Developing
+0062e000002KX8TAAW,Lose,Awaiting Results
+0062e000002KxM2AAK,Lose,Submitting
+0062e000002KxM7AAK,Lose,Application
+0062e000002KxMMAA0,Lose,Pre-submission
+0062e000002KxO3AAK,Lose,Submitting
+0062e000002KxO8AAK,Lose,Application
+0062e000002KYB5AAO,Win,Closing
+0062e000002KYHrAAO,Lose,Proposing
+0062e000002L1K8AAK,Lose,Awaiting Results
+0062e000002L1TPAA0,Lose,Pre-submission
+0062e000002L1XHAA0,Lose,Awaiting Results
+0062e000002L2B2AAK,Lose,Pre-submission
+0062e000002L2JLAA0,Lose,Awaiting Results
+0062e000002L2TJAA0,Lose,Awaiting Results
+0062e000002L2W3AAK,Lose,Awaiting Results
+0062e000002L2WrAAK,Lose,Awaiting Results
+0062e000002L2ZqAAK,Lose,Awaiting Results
+0062e000002L40TAAS,Lose,Awaiting Results
+0062e000002L4MUAA0,Lose,Awaiting Results
+0062e000002L4NDAA0,Lose,Awaiting Results
+0062e000002L4TQAA0,Lose,Pre-submission
+0062e000002L5o4AAC,Lose,Awaiting Results
+0062e000002L5qZAAS,Lose,Awaiting Results
+0062e000002LC6zAAG,Lose,Awaiting Results
+0062e000002LCcqAAG,Lose,Developing
+0062e000002LcjfAAC,Lose,Developing
+0062e000002LclqAAC,Lose,Awaiting Results
+0062e000002Ld12AAC,Lose,Closing
+0062e000002Ld7yAAC,Lose,Awaiting Results
+0062e000002LehRAAS,Lose,Developing
+0062e000002LekfAAC,Lose,Developing
+0062e000002LEPaAAO,Lose,Pre-submission
+0062e000002LGszAAG,Lose,Developing
+0062e000002Lhm3AAC,Lose,Developing
+0062e000002Li8xAAC,Lose,Developing
+0062e000002LihdAAC,Lose,Application
+0062e000002LisMAAS,Lose,Application
+0062e000002Lk11AAC,Lose,Application
+0062e000002LnAzAAK,Lose,Proposing
+0062e000002LnNvAAK,Lose,Identifying
+0062e000002Lnz7AAC,Lose,Developing
+0062e000002Lo0tAAC,Lose,Identifying
+0062e000002Lo1mAAC,Lose,Closing
+0062e000002Lo1NAAS,Lose,Proposing
+0062e000002LoiVAAS,Lose,Identifying
+0062e000002LojsAAC,Lose,Identifying
+0062e000002LopeAAC,Win,Identifying
+0062e000002LqPfAAK,Lose,Developing
+0062e000002LqZzAAK,Lose,Developing
+0062e000002LRG6AAO,Lose,Awaiting Results
+0062e000002LRlUAAW,Lose,Identifying
+0062e000002LRPwAAO,Lose,Proposing
+0062e000002LRWOAA4,Lose,Awaiting Results
+0062e000002LTBQAA4,Lose,Developing
+0062e000002LTFDAA4,Lose,Developing
+0062e000002LTNvAAO,Lose,Pre-submission
+0062e000002LTZmAAO,Lose,Execute Contract
+0062e000002LUvKAAW,Lose,Developing
+0062e000002LVY6AAO,Lose,Awaiting Results
+0062e000002LXsaAAG,Lose,Developing
+0062e000002LymwAAC,Lose,Developing
+0062e000002LysQAAS,Lose,Developing
+0062e000002LzFDAA0,Lose,Proposing
+0062e000002LZs5AAG,Lose,Developing
+0062e000002M3g3AAC,Lose,Developing
+0062e000002M4ZmAAK,Lose,Developing
+0062e000002M5alAAC,Lose,Awaiting Results
+0062e000002M7hlAAC,Lose,Developing
+0062e000002M7lEAAS,Lose,Proposing
+0062e000002M7ZwAAK,Lose,Developing
+0062e000002M8w2AAC,Lose,Pre-submission
+0062e000002M9hrAAC,Lose,Identifying
+0062e000002M9mXAAS,Lose,Awaiting Results
+0062e000002M9nzAAC,Lose,Application
+0062e000002MAeAAAW,Lose,Proposing
+0062e000002MAeZAAW,Lose,Developing
+0062e000002MAfDAAW,Lose,Developing
+0062e000002MAjZAAW,Lose,Proposing
+0062e000002MAk8AAG,Lose,Proposing
+0062e000002MAkhAAG,Lose,Developing
+0062e000002MBsjAAG,Lose,Closing
+0062e000002MBthAAG,Lose,Closing
+0062e000002MBvOAAW,Lose,Closing
+0062e000002MCgyAAG,Win,Closing
+0062e000002MCMPAA4,Lose,Developing
+0062e000002MctyAAC,Lose,Proposing
+0062e000002McxHAAS,Lose,Proposing
+0062e000002Md1dAAC,Lose,Application
+0062e000002Md1JAAS,Lose,Application
+0062e000002Md2CAAS,Lose,Application
+0062e000002MDBwAAO,Lose,Awaiting Results
+0062e000002MDHkAAO,Lose,Proposing
+0062e000002MDvAAAW,Lose,Developing
+0062e000002ME1PAAW,Lose,Pre-submission
+0062e000002ME2IAAW,Lose,Pre-submission
+0062e000002MFDCAA4,Lose,Developing
+0062e000002MFEKAA4,Lose,Proposing
+0062e000002MFFcAAO,Lose,Proposing
+0062e000002MfgdAAC,Lose,Proposing
+0062e000002MfgEAAS,Lose,Developing
+0062e000002MgqMAAS,Lose,Developing
+0062e000002MHfhAAG,Lose,Identifying
+0062e000002MhyEAAS,Win,Application
+0062e000002MiDxAAK,Lose,Developing
+0062e000002MiFNAA0,Lose,Developing
+0062e000002MiICAA0,Lose,Proposing
+0062e000002MiKmAAK,Lose,Developing
+0062e000002MiPDAA0,Lose,Proposing
+0062e000002MiZBAA0,Lose,Proposing
+0062e000002MKsDAAW,Lose,Developing
+0062e000002MljJAAS,Lose,Developing
+0062e000002MnJqAAK,Lose,Developing
+0062e000002MoH0AAK,Lose,Identifying
+0062e000002Mok2AAC,Lose,Awaiting Results
+0062e000002MoUxAAK,Lose,Identifying
+0062e000002MsxOAAS,Lose,Developing
+0062e000002Mt4ZAAS,Lose,Identifying
+0062e000002MtdIAAS,Lose,Identifying
+0062e000002Mtf4AAC,Lose,Awaiting Results
+0062e000002MtWRAA0,Lose,Developing
+0062e000002MtXoAAK,Lose,Identifying
+0062e000002MUj1AAG,Lose,Application
+0062e000002MvdqAAC,Lose,Developing
+0062e000002MvfNAAS,Lose,Developing
+0062e000002MVKXAA4,Lose,Developing
+0062e000002MVppAAG,Lose,Developing
+0062e000002MVrHAAW,Lose,Pre-submission
+0062e000002MVwbAAG,Lose,Application
+0062e000002MW9yAAG,Lose,Awaiting Results
+0062e000002MWe9AAG,Lose,Identifying
+0062e000002MWH9AAO,Lose,Triage / Develop Opportunity
+0062e000002MwskAAC,Lose,Identifying
+0062e000002MwtOAAS,Lose,Developing
+0062e000002MwxpAAC,Lose,Application
+0062e000002MxLNAA0,Lose,Pre-submission
+0062e000002MxLXAA0,Lose,Awaiting Results
+0062e000002MxM6AAK,Lose,Awaiting Results
+0062e000002MxnvAAC,Lose,Awaiting Results
+0062e000002MxSTAA0,Lose,Identifying
+0062e000002MYOSAA4,Win,Proposing
+0062e000002MYUpAAO,Lose,Pre-submission
+0062e000002MYVnAAO,Lose,Pre-submission
+0062e000002MYYXAA4,Lose,Application
+0062e000002MZvxAAG,Win,Identifying
+0062e000002N07oAAC,Lose,Identifying
+0062e000002N0aMAAS,Lose,Identifying
+0062e000002N0VAAA0,Lose,Proposing
+0062e000002N0WNAA0,Lose,Proposing
+0062e000002N1r5AAC,Lose,Pre-submission
+0062e000002N3e5AAC,Lose,Closing
+0062e000002N516AAC,Lose,Notice
+0062e000002N6NrAAK,Lose,Identifying
+0062e000002N6U4AAK,Lose,Submitting
+0062e000002NAvCAAW,Lose,Identifying
+0062e000002NBRQAA4,Lose,Developing
+0062e000002NBWVAA4,Lose,Pre-submission
+0062e000002NCl5AAG,Lose,Developing
+0062e000002NCrhAAG,Lose,Proposing
+0062e000002NDbJAAW,Lose,Developing
+0062e000002NDkfAAG,Lose,Pre-submission
+0062e000002NDkzAAG,Lose,Identifying
+0062e000002NG62AAG,Lose,Awaiting Results
+0062e000002NG6MAAW,Lose,Awaiting Results
+0062e000002NGUCAA4,Lose,Awaiting Results
+0062e000002NHFCAA4,Lose,Closing
+0062e000002NHieAAG,Lose,Pre-submission
+0062e000002NHIQAA4,Lose,Pre-submission
+0062e000002NHj3AAG,Lose,Application
+0062e000002NHjmAAG,Lose,Developing
+0062e000002NHl4AAG,Lose,Proposing
+0062e000002NIELAA4,Lose,Developing
+0062e000002NIG7AAO,Lose,Developing
+0062e000002NIucAAG,Lose,Awaiting Results
+0062e000002NJCZAA4,Lose,Developing
+0062e000002NkcYAAS,Lose,Awaiting Results
+0062e000002NkdRAAS,Lose,Application
+0062e000002NkfYAAS,Lose,Awaiting Results
+0062e000002NkgHAAS,Lose,Awaiting Results
+0062e000002Nkh5AAC,Lose,Awaiting Results
+0062e000002NkhoAAC,Lose,Awaiting Results
+0062e000002Nki8AAC,Lose,Awaiting Results
+0062e000002NkimAAC,Lose,Awaiting Results
+0062e000002NmB0AAK,Lose,Proposing
+0062e000002NmbOAAS,Lose,Identifying
+0062e000002NmChAAK,Lose,Identifying
+0062e000002NmOTAA0,Lose,Identifying
+0062e000002NmqOAAS,Lose,Identifying
+0062e000002NoUKAA0,Lose,Developing
+0062e000002NowRAAS,Lose,Proposing
+0062e000002Np5iAAC,Lose,Application
+0062e000002NpT1AAK,Lose,Proposing
+0062e000002NpygAAC,Lose,Developing
+0062e000002NpzAAAS,Lose,Developing
+0062e000002NRpiAAG,Lose,Identifying
+0062e000002NS8aAAG,Lose,Awaiting Results
+0062e000002NsbNAAS,Lose,Developing
+0062e000002NTEqAAO,Lose,Submitting
+0062e000002NTFeAAO,Lose,Submitting
+0062e000002NTFjAAO,Lose,Application
+0062e000002NTNfAAO,Lose,Awaiting Results
+0062e000002NunCAAS,Lose,Identifying
+0062e000002NuwxAAC,Lose,Identifying
+0062e000002NxefAAC,Lose,Identifying
+0062e000002NYbPAAW,Lose,Identifying
+0062e000002NYbtAAG,Lose,Identifying
+0062e000002NYd6AAG,Lose,Identifying
+0062e000002NYesAAG,Lose,Identifying
+0062e000002NYiGAAW,Lose,Identifying
+0062e000002NYnkAAG,Win,Awaiting Results
+0062e000002NYSXAA4,Lose,Closing
+0062e000002NYszAAG,Lose,Application
+0062e000002NYTaAAO,Lose,Closing
+0062e000002NyWVAA0,Lose,Proposing
+0062e000002NYXXAA4,Win,Pre-submission
+0062e000002NzefAAC,Lose,Identifying
+0062e000002NzsGAAS,Lose,Pre-submission
+0062e000002O2DQAA0,Lose,Proposing
+0062e000002O2foAAC,Lose,Identifying
+0062e000002O2G0AAK,Lose,Proposing
+0062e000002O2HcAAK,Lose,Proposing
+0062e000002O2KbAAK,Lose,Identifying
+0062e000002O2LtAAK,Lose,Identifying
+0062e000002O2MmAAK,Lose,Identifying
+0062e000002O6iyAAC,Lose,Identifying
+0062e000002O6jrAAC,Lose,Awaiting Results
+0062e000002OAqjAAG,Lose,Developing
+0062e000002OArmAAG,Lose,Application
+0062e000002OAtnAAG,Lose,Application
+0062e000002OAtTAAW,Lose,Application
+0062e000002OD3gAAG,Lose,Identifying
+0062e000002ODpMAAW,Lose,Application
+0062e000002OE5eAAG,Lose,Identifying
+0062e000002OEW1AAO,Lose,Identifying
+0062e000002OF9GAAW,Lose,Developing
+0062e000002OFCyAAO,Lose,Developing
+0062e000002OFF4AAO,Lose,Developing
+0062e000002OFLbAAO,Lose,Proposing
+0062e000002OFN3AAO,Lose,Proposing
+0062e000002OfS5AAK,Lose,Identifying
+0062e000002OGK1AAO,Lose,Awaiting Results
+0062e000002OGOcAAO,Lose,Awaiting Results
+0062e000002OJxpAAG,Lose,Proposing
+0062e000002On22AAC,Lose,Awaiting Results
+0062e000002OqmZAAS,Lose,Proposing
+0062e000002OqvlAAC,Lose,Proposing
+0062e000002OqwFAAS,Lose,Developing
+0062e000002OxGnAAK,Lose,Proposing
+0062e000002OxH2AAK,Lose,Identifying
+0062e000002OyhAAAS,Lose,Awaiting Results
+0062e000002OyjjAAC,Lose,Awaiting Results
+0062e000002OyzzAAC,Lose,Proposing
+0062e000002OzAdAAK,Win,Submitting
+0062e000002OzrYAAS,Lose,Triage / Develop Opportunity
+0062e000002P1sbAAC,Lose,Developing
+0062e000002P362AAC,Lose,Closing
+0062e000002P39GAAS,Lose,Developing
+0062e000002P3BgAAK,Lose,Submitting
+0062e000002P4JqAAK,Lose,Developing
+0062e000002P4LSAA0,Lose,Developing
+0062e000002P4tJAAS,Lose,Application
+0062e000002P5fMAAS,Lose,Proposing
+0062e000002P5NrAAK,Lose,Developing
+0062e000002P5NSAA0,Lose,Developing
+0062e000002P5O1AAK,Lose,Developing
+0062e000002P7BKAA0,Lose,Developing
+0062e000002PBcjAAG,Lose,Developing
+0062e000002PDKLAA4,Lose,Closing
+0062e000002PDz5AAG,Lose,Application
+0062e000002PE1pAAG,Lose,Application
+0062e000002PETtAAO,Lose,Application
+0062e000002PEutAAG,Lose,Identifying
+0062e000002PFwFAAW,Lose,Awaiting Results
+0062e000002PFwyAAG,Lose,Pre-submission
+0062e000002PFx9AAG,Lose,Awaiting Results
+0062e000002PFxDAAW,Lose,Pre-submission
+0062e000002PFxNAAW,Lose,Pre-submission
+0062e000002PFxrAAG,Lose,Submitting
+0062e000002PFxSAAW,Lose,Pre-submission
+0062e000002PFxwAAG,Lose,Pre-submission
+0062e000002PFy1AAG,Lose,Pre-submission
+0062e000002PIJVAA4,Lose,Identifying
+0062e000002PKjVAAW,Lose,Awaiting Results
+0062e000002PKl2AAG,Lose,Awaiting Results
+0062e000002PLPeAAO,Lose,Proposing
+0062e000002PMeyAAG,Lose,Developing
+0062e000002PMgpAAG,Lose,Application
+0062e000002PMhYAAW,Win,Application
+0062e000002PMi7AAG,Win,Application
+0062e000002PMjoAAG,Lose,Application
+0062e000002PMkDAAW,Lose,Awaiting Results
+0062e000002PMkIAAW,Lose,Awaiting Results
+0062e000002PNoJAAW,Win,Identifying
+0062e000002PNyNAAW,Lose,Identifying
+0062e000002PO8JAAW,Lose,Identifying
+0062e000002PODpAAO,Lose,Identifying
+0062e000002POj4AAG,Lose,Identifying
+0062e000002POWjAAO,Lose,Identifying
+0062e000002POzPAAW,Lose,Identifying
+0062e000002PPBQAA4,Lose,Identifying
+0062e000002PpnoAAC,Lose,Awaiting Results
+0062e000002PpzjAAC,Lose,Proposing
+0062e000002Pq0mAAC,Lose,Proposing
+0062e000002PqKsAAK,Lose,Developing
+0062e000002PV59AAG,Lose,Developing
+0062e000002PVPlAAO,Lose,Awaiting Results
+0062e000002PVWwAAO,Lose,Developing
+0062e000002PWruAAG,Lose,Identifying
+0062e000002PXkiAAG,Lose,Developing
+0062e000002PYTQAA4,Lose,Awaiting Results
+0062e000002PZ95AAG,Lose,Developing
+0062e000002QarQAAS,Lose,Proposing
+0062e000002QbEQAA0,Lose,Submitting
+0062e000002QbERAA0,Lose,Awaiting Results
+0062e000002QexRAAS,Lose,Identifying
+0062e000002QhPDAA0,Lose,Proposing
+0062e000002QjgpAAC,Lose,Pre-submission
+0062e000002Qjm4AAC,Lose,Proposing
+0062e000002QkcUAAS,Lose,Awaiting Results
+0062e000002QkFhAAK,Lose,Identifying
+0062e000002QkHdAAK,Lose,Identifying
+0062e000002QkVaAAK,Lose,Application
+0062e000002QkwBAAS,Lose,Developing
+0062e000002QlcVAAS,Lose,Application
+0062e000002Qpc1AAC,Lose,Developing
+0062e000002QpcLAAS,Lose,Identifying
+0062e000002QpeMAAS,Lose,Developing
+0062e000002QrgIAAS,Lose,Execution / Closing
+0062e000002QrH6AAK,Lose,Identifying
+0062e000002QrXTAA0,Lose,Awaiting Results
+0062e000002QsW9AAK,Lose,Execution / Closing
+0062e000002QtOaAAK,Lose,Developing
+0062e000002QtQlAAK,Lose,Proposing
+0062e000002QuebAAC,Lose,Execution / Closing
+0062e000002QuQaAAK,Lose,Execution / Closing
+0062e000002Qv3JAAS,Lose,Proposing
+0062e000002QyyeAAC,Lose,Identifying
+0062e000002QzijAAC,Lose,Execution / Closing
+0062e000002QzLzAAK,Lose,Pre-submission
+0062e000002QzxGAAS,Lose,Execution / Closing
+0062e000002R2UVAA0,Lose,Identifying
+0062e000002R3DGAA0,Lose,Execution / Closing
+0062e000002R4AhAAK,Lose,Proposing
+0062e000002R4BaAAK,Lose,Proposing
+0062e000002R4iqAAC,Lose,Pre-submission
+0062e000002R4ivAAC,Lose,Pre-submission
+0062e000002R4jkAAC,Lose,Pre-submission
+0062e000002R4jpAAC,Lose,Pre-submission
+0062e000002R4juAAC,Lose,Pre-submission
+0062e000002R4jVAAS,Lose,Pre-submission
+0062e000002R4jzAAC,Lose,Pre-submission
+0062e000002R4k4AAC,Lose,Pre-submission
+0062e000002R4KcAAK,Lose,Developing
+0062e000002R4kEAAS,Lose,Pre-submission
+0062e000002R4kiAAC,Lose,Pre-submission
+0062e000002R4knAAC,Lose,Pre-submission
+0062e000002R4kOAAS,Lose,Pre-submission
+0062e000002R4ksAAC,Lose,Pre-submission
+0062e000002R4kxAAC,Lose,Pre-submission
+0062e000002R4l2AAC,Lose,Pre-submission
+0062e000002R4ltAAC,Lose,Pre-submission
+0062e000002R4mNAAS,Lose,Pre-submission
+0062e000002R4mXAAS,Lose,Pre-submission
+0062e000002R4o9AAC,Lose,Pre-submission
+0062e000002R4odAAC,Lose,Pre-submission
+0062e000002R4onAAC,Lose,Pre-submission
+0062e000002R4oxAAC,Lose,Pre-submission
+0062e000002R4p2AAC,Lose,Pre-submission
+0062e000002R4YuAAK,Lose,Proposing
+0062e000002R5nGAAS,Lose,Identifying
+0062e000002R6boAAC,Lose,Awaiting Results
+0062e000002R6cmAAC,Lose,Awaiting Results
+0062e000002R6g8AAC,Lose,Execution / Closing
+0062e000002R6gcAAC,Lose,Identifying
+0062e000002R6J8AAK,Lose,Identifying
+0062e000002R6rGAAS,Lose,Execution / Closing
+0062e000002R6SVAA0,Lose,Submitting
+0062e000002R6xNAAS,Lose,Developing
+0062e000002R77cAAC,Win,Identifying
+0062e000002R7GHAA0,Lose,Awaiting Results
+0062e000002R7khAAC,Lose,Identifying
+0062e000002R8KdAAK,Lose,Closing
+0062e000002RdxqAAC,Lose,Pre-submission
+0062e000002Rdz3AAC,Lose,Application
+0062e000002RE0FAAW,Lose,Identifying
+0062e000002ReGoAAK,Lose,Develop Relationship/ Qualify opportunity
+0062e000002RF41AAG,Lose,Proposing
+0062e000002RFaiAAG,Lose,Identifying
+0062e000002RGeTAAW,Lose,Awaiting Results
+0062e000002RGGXAA4,Lose,Pre-submission
+0062e000002RgRoAAK,Lose,Application
+0062e000002RHdIAAW,Lose,Proposing
+0062e000002RHdSAAW,Lose,Proposing
+0062e000002RHjkAAG,Lose,Closing
+0062e000002RHvHAAW,Lose,Execution / Closing
+0062e000002RHxBAAW,Lose,Execution / Closing
+0062e000002RI95AAG,Lose,Execution / Closing
+0062e000002RJ0pAAG,Lose,Execution / Closing
+0062e000002RJ14AAG,Lose,Execution / Closing
+0062e000002RJ2SAAW,Lose,Execution / Closing
+0062e000002RJ5PAAW,Lose,Execution / Closing
+0062e000002RJ5tAAG,Lose,Execution / Closing
+0062e000002RJ6SAAW,Lose,Execution / Closing
+0062e000002RJ7uAAG,Lose,Execution / Closing
+0062e000002RJcxAAG,Lose,Developing
+0062e000002RjMWAA0,Lose,Triage / Develop Opportunity
+0062e000002Rk5DAAS,Lose,Developing
+0062e000002RKIcAAO,Lose,Proposing
+0062e000002Rlg1AAC,Lose,Pre-submission
+0062e000002RlgGAAS,Lose,Pre-submission
+0062e000002RlgkAAC,Lose,Pre-submission
+0062e000002RlgLAAS,Lose,Pre-submission
+0062e000002RLzZAAW,Lose,Developing
+0062e000002RNFQAA4,Lose,Identifying
+0062e000002RobKAAS,Lose,Application
+0062e000002RoHyAAK,Win,Identifying
+0062e000002ROZ1AAO,Lose,Proposing
+0062e000002RoZOAA0,Lose,Pre-submission
+0062e000002RPEtAAO,Lose,Application
+0062e000002RPsBAAW,Lose,Developing
+0062e000002RSOVAA4,Lose,Pre-submission
+0062e000002RTcUAAW,Lose,Identifying
+0062e000002RTMbAAO,Lose,Developing
+0062e000002RTU6AAO,Lose,Identifying
+0062e000002RTUuAAO,Lose,Developing
+0062e000002RTX5AAO,Lose,Developing
+0062e000002RU2rAAG,Lose,Developing
+0062e000002RUFgAAO,Lose,Developing
+0062e000002RUNkAAO,Lose,Developing
+0062e000002RUOiAAO,Lose,Identifying
+0062e000002RUPMAA4,Lose,Identifying
+0062e000002RVAqAAO,Lose,Proposing
+0062e000002RVqGAAW,Win,Closing
+0062e000002RWbyAAG,Lose,Awaiting Results
+0062e000002RWk2AAG,Lose,Identifying
+0062e000002RWljAAG,Lose,Identifying
+0062e000002Rx5UAAS,Lose,Pre-submission
+0062e000002RxzzAAC,Lose,Identifying
+0062e000002RyRlAAK,Lose,Identifying
+0062e000002S0rsAAC,Lose,Identifying
+0062e000002S0sMAAS,Lose,Identifying
+0062e000002S2AaAAK,Lose,Awaiting Results
+0062e000002S33LAAS,Lose,Identifying
+0062e000002S3qRAAS,Lose,Develop Relationship/ Qualify opportunity
+0062e000002S3yKAAS,Lose,Developing
+0062e000002S4LwAAK,Lose,Identifying
+0062e000002S4NdAAK,Lose,Identifying
+0062e000002S4OMAA0,Lose,Identifying
+0062e000002S5PsAAK,Lose,Identifying
+0062e000002S7gYAAS,Lose,Developing
+0062e000002SBhqAAG,Lose,Awaiting Results
+0062e000002SBnmAAG,Lose,Application
+0062e000002SCVZAA4,Lose,Application
+0062e000002Sd9BAAS,Lose,Develop Relationship/ Qualify opportunity
+0062e000002Sd9VAAS,Lose,Identifying
+0062e000002SdATAA0,Lose,Identifying
+0062e000002SdavAAC,Lose,Application
+0062e000002SDGvAAO,Lose,Application
+0062e000002SE6hAAG,Lose,Proposing
+0062e000002Se6HAAS,Lose,Developing
+0062e000002SeCUAA0,Lose,Developing
+0062e000002Sf8DAAS,Lose,Awaiting Results
+0062e000002SfZUAA0,Lose,Application
+0062e000002SgieAAC,Lose,Notice
+0062e000002SgioAAC,Lose,Notice
+0062e000002SHbdAAG,Lose,Pre-submission
+0062e000002SHeNAAW,Lose,Awaiting Results
+0062e000002SHhxAAG,Lose,Proposing
+0062e000002SiBuAAK,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SIbVAAW,Lose,Execution / Closing
+0062e000002SICRAA4,Lose,Execution / Closing
+0062e000002SICrAAO,Lose,Execution / Closing
+0062e000002SICvAAO,Lose,Execution / Closing
+0062e000002SIeBAAW,Lose,Negotiation / Propose
+0062e000002SIFLAA4,Lose,Execution / Closing
+0062e000002SIHuAAO,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SII4AAO,Lose,Execution / Closing
+0062e000002SIIYAA4,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SIJRAA4,Lose,Execution / Closing
+0062e000002SIKKAA4,Lose,Execution / Closing
+0062e000002SIPAAA4,Lose,Triage / Develop Opportunity
+0062e000002SIQNAA4,Lose,Triage / Develop Opportunity
+0062e000002SiupAAC,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SIVXAA4,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SIY7AAO,Lose,Execution / Closing
+0062e000002SIYDAA4,Lose,Application
+0062e000002SIYWAA4,Lose,Execution / Closing
+0062e000002SjIBAA0,Lose,Identifying
+0062e000002SjyCAAS,Lose,Proposing
+0062e000002SjzeAAC,Lose,Develop Relationship/ Qualify opportunity
+0062e000002Sk4xAAC,Lose,Develop Relationship/ Qualify opportunity
+0062e000002Sk5qAAC,Lose,Develop Relationship/ Qualify opportunity
+0062e000002Ska9AAC,Lose,Identifying
+0062e000002SKElAAO,Lose,Identifying
+0062e000002SKooAAG,Lose,Pre-submission
+0062e000002SKp3AAG,Lose,Pre-submission
+0062e000002SKp8AAG,Lose,Pre-submission
+0062e000002SLWXAA4,Lose,Developing
+0062e000002SmRpAAK,Lose,Identifying
+0062e000002SMYUAA4,Lose,Awaiting Results
+0062e000002SNeGAAW,Lose,Proposing
+0062e000002SNI5AAO,Lose,Proposing
+0062e000002SnkgAAC,Lose,Identifying
+0062e000002SnmwAAC,Lose,Identifying
+0062e000002Sno9AAC,Lose,Developing
+0062e000002Snq5AAC,Lose,Proposing
+0062e000002SntEAAS,Win,Proposing
+0062e000002SnuqAAC,Lose,Proposing
+0062e000002SNY3AAO,Lose,Identifying
+0062e000002SpoyAAC,Lose,Developing
+0062e000002Sq30AAC,Lose,Pre-submission
+0062e000002SRcNAAW,Lose,Application
+0062e000002SRedAAG,Win,Developing
+0062e000002SRFdAAO,Win,Proposing
+0062e000002SRkCAAW,Lose,Developing
+0062e000002SRlFAAW,Lose,Developing
+0062e000002SRmSAAW,Lose,Developing
+0062e000002SRnGAAW,Lose,Developing
+0062e000002SRQHAA4,Lose,Identifying
+0062e000002SRrFAAW,Lose,Identifying
+0062e000002SsgBAAS,Lose,Application
+0062e000002SsgVAAS,Lose,Awaiting Results
+0062e000002SshYAAS,Lose,Awaiting Results
+0062e000002SSigAAG,Lose,Developing
+0062e000002SsiRAAS,Lose,Awaiting Results
+0062e000002SSKOAA4,Lose,Identifying
+0062e000002SSNrAAO,Lose,Developing
+0062e000002SsoyAAC,Lose,Developing
+0062e000002STK8AAO,Lose,Developing
+0062e000002StzOAAS,Lose,Proposing
+0062e000002SUnnAAG,Lose,Developing
+0062e000002SUu5AAG,Lose,Identifying
+0062e000002SUvDAAW,Lose,Closing
+0062e000002SUvrAAG,Lose,Application
+0062e000002SV1OAAW,Lose,Developing
+0062e000002SVDBAA4,Lose,Identifying
+0062e000002SVDsAAO,Lose,Developing
+0062e000002SVJNAA4,Lose,Developing
+0062e000002SVOvAAO,Lose,Identifying
+0062e000002SvwXAAS,Lose,Developing
+0062e000002SvxfAAC,Lose,Identifying
+0062e000002SvxLAAS,Win,Identifying
+0062e000002Svy9AAC,Lose,Identifying
+0062e000002SVylAAG,Lose,Developing
+0062e000002SX0qAAG,Win,Developing
+0062e000002Sx23AAC,Lose,Identifying
+0062e000002Sx5MAAS,Lose,Develop Relationship/ Qualify opportunity
+0062e000002SybDAAS,Lose,Proposing
+0062e000002SyBkAAK,Lose,Application
+0062e000002SyczAAC,Win,Developing
+0062e000002SyE5AAK,Lose,Awaiting Results
+0062e000002SyKKAA0,Lose,Awaiting Results
+0062e000002SySDAA0,Lose,Proposing
+0062e000002SystAAC,Lose,Application
+0062e000002SyWcAAK,Lose,Awaiting Results
+0062e000002SyZCAA0,Lose,Pre-submission
+0062e000002SyZWAA0,Lose,Application
+0062e000002SzC5AAK,Lose,Application
+0062e000002SzHyAAK,Lose,Application
+0062e000002SzJQAA0,Lose,Awaiting Results
+0062e000002T6VHAA0,Lose,Closing
+0062e000002TAMnAAO,Lose,Developing
+0062e000002TAN2AAO,Lose,Developing
+0062e000002TbRMAA0,Lose,Awaiting Results
+0062e000002TcMVAA0,Lose,Proposing
+0062e000002TeaMAAS,Lose,Awaiting Results
+0062e000002TebZAAS,Lose,Application
+0062e000002TeetAAC,Lose,Application
+0062e000002TffWAAS,Lose,Closing
+0062e000002TgLiAAK,Lose,Identifying
+0062e000002TJtjAAG,Lose,Identifying
+0062e000002TMOWAA4,Lose,Proposing
+0062e000002TNVGAA4,Lose,Pre-submission
+0062e000002TOslAAG,Lose,Execute Contract
+0062e000002TpIaAAK,Lose,Identifying
+0062e000002TqbNAAS,Lose,Proposing
+0062e000002TqTiAAK,Lose,Proposing
+0062e000002TqxUAAS,Lose,Identifying
+0062e000002TQZEAA4,Lose,Identifying
+0062e000002TqzQAAS,Lose,Application
+0062e000002TrPRAA0,Lose,Proposing
+0062e000002TrSaAAK,Lose,Closing
+0062e000002TujOAAS,Lose,Developing
+0062e000002Tws7AAC,Lose,Submitting
+0062e000002TwslAAC,Lose,Awaiting Results
+0062e000002TwtUAAS,Lose,Awaiting Results
+0062e000002TwxvAAC,Lose,Submitting
+0062e000002TXaQAAW,Lose,Identifying
+0062e000002TXbdAAG,Lose,Pre-submission
+0062e000002TxBtAAK,Lose,Awaiting Results
+0062e000002TXcWAAW,Lose,Identifying
+0062e000002TXewAAG,Lose,Pre-submission
+0062e000002TXfGAAW,Lose,Identifying
+0062e000002TXg4AAG,Lose,Identifying
+0062e000002TzenAAC,Lose,Application
+0062e000002TzimAAC,Lose,Developing
+0062e000002U242AAC,Lose,Application
+0062e000002U2XNAA0,Lose,Developing
+0062e000002U4QnAAK,Lose,Application
+0062e000002U5KRAA0,Lose,Developing
+0062e000002U63oAAC,Lose,Identifying
+0062e000002U7D4AAK,Lose,Developing
+0062e000002U9FtAAK,Lose,Developing
+0062e000002UBJnAAO,Lose,Identifying
+0062e000002UC2bAAG,Lose,Proposing
+0062e000002UcdOAAS,Lose,Application
+0062e000002UcF7AAK,Lose,Application
+0062e000002UeOaAAK,Lose,Application
+0062e000002UerEAAS,Lose,Application
+0062e000002UEtlAAG,Lose,Developing
+0062e000002UfeHAAS,Lose,Pre-submission
+0062e000002UfeWAAS,Lose,Identifying
+0062e000002Uff0AAC,Lose,Pre-submission
+0062e000002UffFAAS,Lose,Identifying
+0062e000002UfgIAAS,Lose,Pre-submission
+0062e000002UfgSAAS,Lose,Identifying
+0062e000002Ufh6AAC,Lose,Pre-submission
+0062e000002UfhGAAS,Lose,Identifying
+0062e000002UGQTAA4,Lose,Identifying
+0062e000002Uh9pAAC,Win,Awaiting Results
+0062e000002UhAxAAK,Lose,Awaiting Results
+0062e000002UJ01AAG,Lose,Developing
+0062e000002UjpPAAS,Lose,Proposing
+0062e000002Ujv3AAC,Lose,Identifying
+0062e000002UjxiAAC,Lose,Identifying
+0062e000002UjyMAAS,Lose,Developing
+0062e000002UkvAAAS,Lose,Identifying
+0062e000002UkYCAA0,Lose,Developing
+0062e000002UlFhAAK,Lose,Pre-submission
+0062e000002UlGpAAK,Win,Identifying
+0062e000002UlP5AAK,Lose,Proposing
+0062e000002UnlqAAC,Lose,Pre-submission
+0062e000002UnOIAA0,Lose,Developing
+0062e000002UnsSAAS,Lose,Application
+0062e000002UnvHAAS,Lose,Application
+0062e000002UoRDAA0,Lose,Developing
+0062e000002UoyFAAS,Lose,Proposing
+0062e000002Us21AAC,Lose,Closing
+0062e000002UvJBAA0,Lose,Identifying
+0062e000002UvpMAAS,Lose,Awaiting Results
+0062e000002UyJZAA0,Lose,Identifying
+0062e000002UyNWAA0,Lose,Identifying
+0062e000002UzwxAAC,Lose,Developing
+0062e000002UzZFAA0,Lose,Identifying
+0062e000002V0xXAAS,Lose,Identifying
+0062e000002V0yfAAC,Lose,Identifying
+0062e000002V11PAAS,Lose,Identifying
+0062e000002V149AAC,Lose,Identifying
+0062e000002V18HAAS,Lose,Identifying
+0062e000002V18uAAC,Lose,Identifying
+0062e000002V19YAAS,Lose,Identifying
+0062e000002V1AgAAK,Lose,Identifying
+0062e000002V1BoAAK,Lose,Identifying
+0062e000002V1ChAAK,Lose,Identifying
+0062e000002V2oKAAS,Lose,Identifying
+0062e000002V2pDAAS,Lose,Identifying
+0062e000002V6KaAAK,Lose,Proposing
+0062e000002V8ASAA0,Lose,Application
+0062e000002V8KSAA0,Lose,Proposing
+0062e000002V8OZAA0,Lose,Developing
+0062e000002V8wBAAS,Lose,Awaiting Results
+0062e000002VBMZAA4,Lose,Submitting
+0062e000002VDMtAAO,Lose,Developing
+0062e000002VEJSAA4,Lose,Proposing
+0062e000002VFD8AAO,Win,Developing
+0062e000002VgADAA0,Lose,Application
+0062e000002VH2MAAW,Lose,Developing
+0062e000002VKDnAAO,Lose,Awaiting Results
+0062e000002VKEvAAO,Win,Awaiting Results
+0062e000002VKv7AAG,Lose,Developing
+0062e000002VKVHAA4,Lose,Identifying
+0062e000002Vl1eAAC,Lose,Identifying
+0062e000002VluCAAS,Lose,Identifying
+0062e000002VmaZAAS,Win,Identifying
+0062e000002VN7UAAW,Lose,Application
+0062e000002VnM0AAK,Lose,Developing
+0062e000002VNVIAA4,Lose,Develop Relationship/ Qualify opportunity
+0062e000002VNZeAAO,Win,Identifying
+0062e000002VpbcAAC,Lose,Pre-submission
+0062e000002VpcfAAC,Win,Identifying
+0062e000002VpdcAAC,Lose,Pre-submission
+0062e000002VpdrAAC,Win,Identifying
+0062e000002VpepAAC,Lose,Pre-submission
+0062e000002Vpf4AAC,Lose,Identifying
+0062e000002VpGbAAK,Lose,Pre-submission
+0062e000002VpggAAC,Lose,Pre-submission
+0062e000002VpgvAAC,Lose,Identifying
+0062e000002VpHKAA0,Lose,Identifying
+0062e000002Vr1gAAC,Lose,Developing
+0062e000002VrHUAA0,Lose,Identifying
+0062e000002VRqrAAG,Lose,Proposing
+0062e000002VrWUAA0,Win,Identifying
+0062e000002VS3lAAG,Lose,Identifying
+0062e000002VS8vAAG,Lose,Proposing
+0062e000002VSebAAG,Lose,Proposing
+0062e000002VTcmAAG,Lose,Proposing
+0062e000002VWClAAO,Lose,Developing
+0062e000002VyjMAAS,Lose,Application
+0062e000002Vz1vAAC,Lose,Pre-submission
+0062e000002Vz5GAAS,Lose,Application
+0062e000002VzRNAA0,Lose,Proposing
+0062e000002W8DYAA0,Lose,Identifying
+0062e000002W8FyAAK,Lose,Identifying
+0062e000002W8MJAA0,Lose,Developing
+0062e000002W8XkAAK,Lose,Application
+0062e000002W9qLAAS,Win,Submitting
+0062e000002W9tPAAS,Lose,Pre-submission
+0062e000002WAa5AAG,Lose,Awaiting Results
+0062e000002WAayAAG,Lose,Awaiting Results
+0062e000002WAaZAAW,Lose,Awaiting Results
+0062e000002WAbmAAG,Lose,Awaiting Results
+0062e000002WAcKAAW,Lose,Application
+0062e000002WAk9AAG,Lose,Awaiting Results
+0062e000002WAlHAAW,Lose,Awaiting Results
+0062e000002WAn3AAG,Lose,Identifying
+0062e000002WAQPAA4,Lose,Awaiting Results
+0062e000002WARDAA4,Lose,Awaiting Results
+0062e000002WAt0AAG,Lose,Awaiting Results
+0062e000002WAVeAAO,Lose,Awaiting Results
+0062e000002WAYTAA4,Lose,Awaiting Results
+0062e000002WBBpAAO,Win,Awaiting Results
+0062e000002WBDVAA4,Lose,Awaiting Results
+0062e000002WBNEAA4,Lose,Identifying
+0062e000002WCMjAAO,Lose,Pre-submission
+0062e000002Wd2WAAS,Lose,Proposing
+0062e000002WDlrAAG,Lose,Awaiting Results
+0062e000002WDzVAAW,Lose,Developing
+0062e000002WEArAAO,Lose,Awaiting Results
+0062e000002WepvAAC,Lose,Identifying
+0062e000002WGs8AAG,Lose,Identifying
+0062e000002WGshAAG,Lose,Developing
+0062e000002WGtGAAW,Lose,Developing
+0062e000002WGtuAAG,Lose,Developing
+0062e000002WGu9AAG,Lose,Developing
+0062e000002WLJ2AAO,Lose,Pre-submission
+0062e000002WLJbAAO,Lose,Identifying
+0062e000002WLqCAAW,Lose,Identifying
+0062e000002WMLPAA4,Lose,Identifying
+0062e000002WMVZAA4,Lose,Identifying
+0062e000002WMWNAA4,Lose,Identifying
+0062e000002WOtGAAW,Lose,Identifying
+0062e000002WOxQAAW,Lose,Identifying
+0062e000002WSsIAAW,Lose,Identifying
+0062e000002WtTEAA0,Lose,Identifying
+0062e000002Wv4rAAC,Lose,Identifying
+0062e000002WXH6AAO,Lose,Developing
+0062e000002WzJjAAK,Lose,Identifying
+0062e000002Xa2YAAS,Lose,Developing
+0062e000002XaECAA0,Lose,Developing
+0062e000002XAg0AAG,Lose,Closing
+0062e000002XB8MAAW,Lose,Closing
+0062e000002XBkqAAG,Lose,Developing
+0062e000002XBlZAAW,Lose,Developing
+0062e000002XBmwAAG,Lose,Developing
+0062e000002XBZ8AAO,Lose,Closing
+0062e000002XC4CAAW,Lose,Identifying
+0062e000002XjdaAAC,Lose,Awaiting Results
+0062e000002XJErAAO,Lose,Developing
+0062e000002XJfEAAW,Lose,Identifying
+0062e000002XK7AAAW,Lose,Identifying
+0062e000002XKsgAAG,Lose,Proposing
+0062e000002XMIlAAO,Lose,Developing
+0062e000002XMK3AAO,Lose,Identifying
+0062e000002XmkoAAC,Lose,Developing
+0062e000002XmpeAAC,Lose,Developing
+0062e000002XmtyAAC,Lose,Identifying
+0062e000002XNARAA4,Win,Notice
+0062e000002XnPyAAK,Lose,Identifying
+0062e000002XNuKAAW,Lose,Execute Contract
+0062e000002XOchAAG,Lose,Identifying
+0062e000002XODHAA4,Lose,Identifying
+0062e000002XOeJAAW,Lose,Developing
+0062e000002XOFrAAO,Lose,Developing
+0062e000002XOfRAAW,Lose,Developing
+0062e000002XOgeAAG,Lose,Application
+0062e000002Xp1UAAS,Lose,Closing
+0062e000002XPIjAAO,Lose,Application
+0062e000002XpjbAAC,Lose,Application
+0062e000002XPniAAG,Lose,Execute Contract
+0062e000002XPPHAA4,Lose,Identifying
+0062e000002XPW3AAO,Lose,Application
+0062e000002XQ9cAAG,Lose,Notice
+0062e000002XQl4AAG,Win,Identifying
+0062e000002XQmRAAW,Lose,Developing
+0062e000002XTdxAAG,Lose,Proposing
+0062e000002XtgVAAS,Lose,Awaiting Results
+0062e000002XtigAAC,Lose,Awaiting Results
+0062e000002XtzmAAC,Lose,Awaiting Results
+0062e000002Xua0AAC,Lose,Execute Contract
+0062e000002XubHAAS,Lose,Execute Contract
+0062e000002XucKAAS,Lose,Execute Contract
+0062e000002XufdAAC,Lose,Identifying
+0062e000002XUjmAAG,Lose,Identifying
+0062e000002XuWyAAK,Lose,Submitting
+0062e000002XVVlAAO,Lose,Identifying
+0062e000002XwseAAC,Lose,Identifying
+0062e000002Xy1PAAS,Lose,Identifying
+0062e000002XYaXAAW,Lose,Developing
+0062e000002XygZAAS,Lose,Identifying
+0062e000002XYLwAAO,Lose,Identifying
+0062e000002XYM8AAO,Lose,Identifying
+0062e000002XYNdAAO,Lose,Identifying
+0062e000002XYtoAAG,Lose,Developing
+0062e000002XZ0VAAW,Lose,Proposing
+0062e000002XzeSAAS,Lose,Pre-submission
+0062e000002XZt5AAG,Lose,Submitting
+0062e000002XZuIAAW,Lose,Application
+0062e000002Y0cqAAC,Win,Proposing
+0062e000002Y1QJAA0,Lose,Identifying
+0062e000002Y1UuAAK,Lose,Identifying
+0062e000002Y3XgAAK,Lose,Identifying
+0062e000002YCOOAA4,Lose,Identifying
+0062e000002YD6pAAG,Lose,Developing
+0062e000002YDeiAAG,Lose,Identifying
+0062e000002YDk7AAG,Lose,Identifying
+0062e000002YDxYAAW,Lose,Pre-submission
+0062e000002YE2DAAW,Win,Pre-submission
+0062e000002YF3lAAG,Lose,Identifying
+0062e000002YhdGAAS,Lose,Application
+0062e000002YhU8AAK,Lose,Identifying
+0062e000002YIj7AAG,Lose,Proposing
+0062e000002YIrQAAW,Lose,Identifying
+0062e000002YIw9AAG,Lose,Developing
+0062e000002YIwJAAW,Lose,Developing
+0062e000002YJ0aAAG,Lose,Developing
+0062e000002YJ1sAAG,Lose,Closing
+0062e000002YJ22AAG,Lose,Closing
+0062e000002YJ2vAAG,Lose,Closing
+0062e000002YJ30AAG,Lose,Closing
+0062e000002YjiJAAS,Lose,Developing
+0062e000002YJnqAAG,Lose,Identifying
+0062e000002YjRGAA0,Lose,Application
+0062e000002YKGJAA4,Win,Pre-submission
+0062e000002YKpTAAW,Lose,Notice
+0062e000002YMbuAAG,Lose,Awaiting Results
+0062e000002YMcNAAW,Lose,Awaiting Results
+0062e000002YmrjAAC,Lose,Awaiting Results
+0062e000002YmuEAAS,Lose,Awaiting Results
+0062e000002YmvHAAS,Lose,Awaiting Results
+0062e000002YmWHAA0,Lose,Identifying
+0062e000002YnPVAA0,Lose,Closing
+0062e000002YOx4AAG,Lose,Identifying
+0062e000002YoXsAAK,Lose,Identifying
+0062e000002YoYlAAK,Lose,Notice
+0062e000002YP0hAAG,Lose,Developing
+0062e000002YPEoAAO,Lose,Notice
+0062e000002Ypf3AAC,Lose,Proposing
+0062e000002YrLwAAK,Lose,Awaiting Results
+0062e000002YrlxAAC,Lose,Awaiting Results
+0062e000002YrxDAAS,Lose,Identifying
+0062e000002YrYtAAK,Lose,Pre-submission
+0062e000002YrYuAAK,Lose,Identifying
+0062e000002YT5cAAG,Lose,Notice
+0062e000002YUDdAAO,Lose,Identifying
+0062e000002YUE2AAO,Lose,Application
+0062e000002YVGDAA4,Lose,Identifying
+0062e000002YVGXAA4,Lose,Identifying
+0062e000002YVHkAAO,Lose,Identifying
+0062e000002YVJlAAO,Lose,Developing
+0062e000002YVKoAAO,Lose,Proposing
+0062e000002YVOqAAO,Lose,Identifying
+0062e000002YVPyAAO,Lose,Developing
+0062e000002YWhdAAG,Lose,Identifying
+0062e000002YWQIAA4,Lose,Identifying
+0062e000002YWR1AAO,Lose,Identifying
+0062e000002YXK0AAO,Lose,Developing
+0062e000002Yxw4AAC,Lose,Closing
+0062e000002YycaAAC,Lose,Identifying
+0062e000002YyczAAC,Lose,Identifying
+0062e000002YydOAAS,Lose,Identifying
+0062e000002YyUWAA0,Lose,Identifying
+0062e000002YyV5AAK,Lose,Identifying
+0062e000002YyVjAAK,Lose,Identifying
+0062e000002YyVyAAK,Lose,Identifying
+0062e000002YyWXAA0,Lose,Identifying
+0062e000002YyWYAA0,Lose,Identifying
+0062e000002YyXfAAK,Lose,Identifying
+0062e000002YyXGAA0,Lose,Identifying
+0062e000002YyXpAAK,Lose,Awaiting Results
+0062e000002YzRbAAK,Lose,Developing
+0062e000002YzRRAA0,Lose,Developing
+0062e000002YzWHAA0,Lose,Developing
+0062e000002Z1IgAAK,Lose,Notice
+0062e000002Z2hMAAS,Lose,Developing
+0062e000002Z2Y5AAK,Lose,Developing
+0062e000002Z3DzAAK,Lose,Developing
+0062e000002Z3EOAA0,Lose,Identifying
+0062e000002Z3HmAAK,Lose,Developing
+0062e000002Z3ZMAA0,Lose,Proposing
+0062e000002Z3ZuAAK,Lose,Proposing
+0062e000002Z5cHAAS,Lose,Developing
+0062e000002Z8MmAAK,Lose,Developing
+0062e000002Z8NGAA0,Lose,Identifying
+0062e000002ZaeyAAC,Lose,Proposing
+0062e000002ZBDtAAO,Lose,Identifying
+0062e000002ZbHnAAK,Win,Notice
+0062e000002ZBJ0AAO,Lose,Notice
+0062e000002ZBkQAAW,Lose,Developing
+0062e000002ZcjgAAC,Lose,Proposing
+0062e000002ZcnOAAS,Lose,Application
+0062e000002Zd1gAAC,Win,Identifying
+0062e000002ZDR4AAO,Lose,Identifying
+0062e000002ZDRJAA4,Lose,Identifying
+0062e000002ZGbMAAW,Win,Developing
+0062e000002ZGm8AAG,Lose,Identifying
+0062e000002ZHHoAAO,Lose,Identifying
+0062e000002ZM9DAAW,Lose,Identifying
+0062e000002ZMKOAA4,Lose,Identifying
+0062e000002ZMXIAA4,Win,Notice
+0062e000002ZN0WAAW,Lose,Identifying
+0062e000002ZNHNAA4,Win,Notice
+0062e000002ZO1HAAW,Lose,Identifying
+0062e000002ZQptAAG,Lose,Identifying
+0062e000002ZRCHAA4,Lose,Identifying
+0062e000002ZRkNAAW,Lose,Identifying
+0062e000002ZRQ3AAO,Lose,Awaiting Results
+0062e000002ZRqdAAG,Lose,Awaiting Results
+0062e000002ZRtIAAW,Lose,Awaiting Results
+0062e000002ZUNpAAO,Lose,Identifying
+0062e000002ZW9aAAG,Lose,Identifying
