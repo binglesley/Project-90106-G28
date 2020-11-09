@@ -26,12 +26,15 @@ if __name__ == '__main__':
     X_set, y = imp.impute(no_missing, missing_set, index_missing, labels, names, all_data)
     ros = RandomOverSampler(random_state=0)
     X_resampled, y_resampled = ros.fit_sample(X_set, y)
-    X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, train_size=0.8, random_state=1)
+    X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, train_size=0.9, random_state=1)
 
     # Model training
     training.method_logit(X_train, y_train, X_test, y_test)
     training.method_svm(X_train, y_train, X_test, y_test)
     training.method_rf(X_train, y_train, X_test,y_test,X_set)
+
+    #Predict
+    #training.method_rf(X_train, y_train, pre_data,opportunity_id,X_set)
 
     # Model selection
     #opf.Forest(X_train, y_train)
